@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class BoxCaster : MonoBehaviour
 {
-    private Outline OutlineObject = null;
+    private LoadingBarManager OutlineObject = null;
+    GameObject hitObject_Act = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,14 +31,28 @@ public class BoxCaster : MonoBehaviour
             Gizmos.DrawWireCube(transform.position + transform.forward * hit.distance, transform.lossyScale);
 
             GameObject hitObject = hit.collider.gameObject;
+
             if (hitObject != null)
             {
-
-                OutlineObject = hitObject.GetComponent<Outline>();
+                if (hitObject_Act == null)
+                    hitObject_Act = hitObject;
                 
-                if (OutlineObject != null)
+                if(hitObject_Act == hitObject)
                 {
-                    OutlineObject.Hitted();
+                    OutlineObject = hitObject.GetComponent<LoadingBarManager>();
+
+                    if (OutlineObject != null)
+                    {
+                        OutlineObject.Hitted();
+                    }
+                }
+                else
+                {
+                    hitObject_Act = hitObject;
+                    if (OutlineObject != null && !OutlineObject.Compelt)
+                    {
+                        OutlineObject.StopHitted();
+                    }
                 }
             }
         }
