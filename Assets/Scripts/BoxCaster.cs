@@ -2,15 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BoxCaster : MonoBehaviour
 {
     private LoadingBarManager OutlineObject = null;
     GameObject hitObject_Act = null;
+    public GameObject SceneManager = null;
+    private SceneManager _sceneManager = null;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _sceneManager = SceneManager.GetComponent<SceneManager>();
     }
 
     // Update is called once per frame
@@ -44,6 +47,10 @@ public class BoxCaster : MonoBehaviour
                     if (OutlineObject != null)
                     {
                         OutlineObject.Hitted();
+                        _sceneManager.lookAtItemID = OutlineObject.ItemID;
+                        _sceneManager.lookAtItemName = hitObject_Act.name;
+                        _sceneManager.lookAtItemHegiht = hitObject.transform.position.y;
+                        _sceneManager.selectionState = OutlineObject.SelectionStatus;
                     }
                 }
                 else
@@ -52,6 +59,7 @@ public class BoxCaster : MonoBehaviour
                     if (OutlineObject != null && !OutlineObject.Compelt)
                     {
                         OutlineObject.StopHitted();
+                        _sceneManager.Clear_ItemState();
                     }
                 }
             }
@@ -64,6 +72,7 @@ public class BoxCaster : MonoBehaviour
             if (OutlineObject != null && !OutlineObject.Compelt)
             {
                 OutlineObject.StopHitted();
+                _sceneManager.Clear_ItemState();
             }
         }
     }

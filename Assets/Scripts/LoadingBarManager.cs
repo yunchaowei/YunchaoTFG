@@ -13,7 +13,8 @@ public class LoadingBarManager : MonoBehaviour
         get { return _complet; }
     }
     Coroutine fadeCoroutine;
-    public float FocusDuration = 3f;
+    public int ItemID = 0;
+    [Range(0, 10)]public float FocusDuration = 3f;
     public Color StartColor = Color.red;
     public Color EndColor = Color.green;
     public UnityEngine.UI.Slider LoadingBar;
@@ -22,6 +23,10 @@ public class LoadingBarManager : MonoBehaviour
     private AudioSource audioSource = null;
     public AudioClip clipCounting;
     public AudioClip clipCorrect;
+    public float SelectionStatus
+    {
+        get { return LoadingBar.value; }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -79,6 +84,7 @@ public class LoadingBarManager : MonoBehaviour
 
         // 确保最终颜色是结束颜色
         LoadingBarImage.color = endColor;
+        LoadingBar.value = 1;
         _complet = true; 
         LoadingBar.gameObject.SetActive(false);
         PlayClip_Correct();
@@ -104,6 +110,7 @@ public class LoadingBarManager : MonoBehaviour
         LoadingBar.value = 0;
         LoadingBarImage.color = StartColor;
         LoadingBar.gameObject.SetActive(false);
+        audioSource.Stop();
     }
     public void PlayClip_Counting()
     {
