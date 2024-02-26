@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
-public class Outline : MonoBehaviour
+public class Outline_Custom : MonoBehaviour
 {
     private bool _complet = false;
     public bool Compelt
