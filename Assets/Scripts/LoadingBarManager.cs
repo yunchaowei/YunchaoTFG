@@ -21,6 +21,7 @@ public class LoadingBarManager : MonoBehaviour
 
     public UnityEngine.UI.Image LoadingBarImage;
     private AudioSource audioSource = null;
+    private float WaitSeconds = 0.5f;
     public AudioClip clipCounting;
     public AudioClip clipCorrect;
     public float SelectionStatus
@@ -48,6 +49,15 @@ public class LoadingBarManager : MonoBehaviour
     IEnumerator FadeMaterialColor(Color startColor, Color endColor, float duration)
     {
         float elapsedTime = 0;
+        while (elapsedTime < WaitSeconds)
+        {
+            yield return null;
+
+            // 更新经过的时间
+            elapsedTime += Time.deltaTime;
+        }
+
+        LoadingBar.gameObject.SetActive(true);
         LoadingBar.value = 0;
         PlayClip_Counting();
         // 获取相机的位置
@@ -96,8 +106,7 @@ public class LoadingBarManager : MonoBehaviour
         //this.GetComponent<Renderer>().materials[1].color = Color.green;
         if (fadeCoroutine == null)
         {
-            LoadingBar.gameObject.SetActive(true);
-            fadeCoroutine = StartCoroutine(FadeMaterialColor(StartColor, EndColor, FocusDuration));
+            fadeCoroutine = StartCoroutine(FadeMaterialColor(StartColor, EndColor, FocusDuration + WaitSeconds));
         }
     }
     public void StopHitted()

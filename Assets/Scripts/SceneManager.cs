@@ -8,11 +8,20 @@ using UnityEngine.UI;
 
 public class SceneManager : MonoBehaviour
 {
+    public enum HeightOptions
+    {
+        Low = 1,
+        Medium = 2,
+        High = 3
+    }
+
+    public HeightOptions HeightOption = HeightOptions.Medium;
     public string UserName = "Test User";
     [Range(1.20f, 2.00f)]public float UserHeight;
     public GameObject Furnitures;
     public bool CanChangeHeight = false;
-    [Range(0.01f, 0.50f)] public float height = 0;
+    //[Range(0.01f, 0.50f)] public float height = 0;
+    private float height = 0;
     private List<GameData> gameDataList = new List<GameData>();
     public int lookAtItemID;
     public string lookAtItemName;
@@ -21,6 +30,18 @@ public class SceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        switch (HeightOption)
+        {
+            case HeightOptions.Low:
+                height = 0;
+                break;
+            case HeightOptions.Medium:
+                height = 0.1f;
+                break;
+            case HeightOptions.High:
+                height = 0.2f;
+                break;
+        }
         if (CanChangeHeight)
         {
             Furnitures.transform.position = new Vector3(Furnitures.transform.position.x,
