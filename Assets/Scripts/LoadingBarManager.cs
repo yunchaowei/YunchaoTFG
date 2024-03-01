@@ -24,6 +24,7 @@ public class LoadingBarManager : MonoBehaviour
     private float WaitSeconds = 0.5f;
     public AudioClip clipCounting;
     public AudioClip clipCorrect;
+    Outline outline = null;
     public float SelectionStatus
     {
         get { return LoadingBar.value; }
@@ -38,6 +39,11 @@ public class LoadingBarManager : MonoBehaviour
         LoadingBar.gameObject.SetActive(false);
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
+
+        outline = gameObject.GetComponent<Outline>();
+        outline.OutlineMode = Outline.Mode.OutlineAll;
+        outline.OutlineColor = Color.green;
+        outline.OutlineWidth = 0f;
     }
 
     // Update is called once per frame
@@ -95,7 +101,8 @@ public class LoadingBarManager : MonoBehaviour
         // 确保最终颜色是结束颜色
         LoadingBarImage.color = endColor;
         LoadingBar.value = 1;
-        _complet = true; 
+        _complet = true;
+        outline.OutlineWidth = 5f;
         LoadingBar.gameObject.SetActive(false);
         PlayClip_Correct();
     }

@@ -27,6 +27,7 @@ public class SceneManager : MonoBehaviour
     public string lookAtItemName;
     public float lookAtItemHegiht;
     public float selectionState;
+    public List<GameObject> FurnituresScaled = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,12 @@ public class SceneManager : MonoBehaviour
             Furnitures.transform.position = new Vector3(Furnitures.transform.position.x,
                                                         Furnitures.transform.position.y + height, 
                                                         Furnitures.transform.position.z);
+            foreach(GameObject go in FurnituresScaled)
+            {
+                go.transform.localScale = new Vector3(go.transform.localScale.x,
+                                                        go.transform.localScale.y + height,
+                                                        go.transform.localScale.z);
+            }
         }
         StartCoroutine(CollectDataRoutine());
     }
