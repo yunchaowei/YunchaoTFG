@@ -31,6 +31,7 @@ public class SceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
         switch (HeightOption)
         {
             case HeightOptions.Low:
