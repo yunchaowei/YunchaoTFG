@@ -16,11 +16,6 @@ public class BoxCaster : MonoBehaviour
         _sceneManager = SceneManager.GetComponent<SceneManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnDrawGizmos()
     {

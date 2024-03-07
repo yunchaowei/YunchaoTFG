@@ -21,7 +21,7 @@ public class LoadingBarManager : MonoBehaviour
 
     public UnityEngine.UI.Image LoadingBarImage;
     private AudioSource audioSource = null;
-    private float WaitSeconds = 0.5f;
+    private float WaitSeconds = 0.25f;
     public AudioClip clipCounting;
     public AudioClip clipCorrect;
     Outline outline = null;

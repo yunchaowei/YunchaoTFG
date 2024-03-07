@@ -28,11 +28,15 @@ public class SceneManager : MonoBehaviour
     public float lookAtItemHegiht;
     public float selectionState;
     public List<GameObject> FurnituresScaled = new List<GameObject>();
+    public GameObject cameraParent;
+    public float finalHeight;
+    //public GameObject cameraY;
     // Start is called before the first frame update
     void Start()
     {
-        Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
-        switch (HeightOption)
+
+        //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
+       switch (HeightOption)
         {
             case HeightOptions.Low:
                 height = 0;
@@ -44,6 +48,8 @@ public class SceneManager : MonoBehaviour
                 height = 0.2f;
                 break;
         }
+
+        finalHeight = cameraParent.transform.position.y + height;
         if (CanChangeHeight)
         {
             Furnitures.transform.position = new Vector3(Furnitures.transform.position.x,
@@ -66,8 +72,10 @@ public class SceneManager : MonoBehaviour
             GameData data = new GameData
             {
                 timestamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds(),
-                playerPosition = Camera.main.transform.position,
-                cameraRotation = Camera.main.transform.rotation,
+                //playerPosition = Camera.main.transform.position,
+                //cameraRotation = Camera.main.transform.rotation,
+                playerPosition = cameraParent.transform.position,
+                cameraRotation = cameraParent.transform.rotation,
                 LookAtItemID = lookAtItemID,
                 LookAtItemName = lookAtItemName,
                 LookAtItemHegiht = lookAtItemHegiht,
@@ -81,9 +89,11 @@ public class SceneManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        
+
+            cameraParent.transform.position = new Vector3(cameraParent.transform.position.x, finalHeight, cameraParent.transform.position.z);
+       
     }
 
     public void Clear_ItemState()
