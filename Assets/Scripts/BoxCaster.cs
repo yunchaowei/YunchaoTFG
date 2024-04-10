@@ -10,24 +10,28 @@ public class BoxCaster : MonoBehaviour
     GameObject hitObject_Act = null;
     public GameObject SceneManager = null;
     private SceneManager _sceneManager = null;
+    public GameObject _sphereHit;
     // Start is called before the first frame update
     void Start()
     {
         _sceneManager = SceneManager.GetComponent<SceneManager>();
+        //_sphereHit = GameObject.CreatePrimitive(PrimitiveType.Sphere);
     }
 
 
     private void OnDrawGizmos()
     {
-        float maxDistance = 10f;
+        float maxDistance = _sceneManager != null? _sceneManager.MaxDistanceCasting : 2.5f;
         RaycastHit hit;
-        bool isHit = Physics.BoxCast(transform.position, transform.lossyScale / 2, transform.forward, out hit, transform.rotation, maxDistance);
+       // bool isHit = Physics.BoxCast(transform.position, transform.lossyScale / 3, transform.forward, out hit, transform.rotation, maxDistance);
+        bool isHit = Physics.Raycast(transform.position, transform.forward, out hit, maxDistance);
         if (isHit)
         {
             Gizmos.color = Color.red;
             Gizmos.DrawRay(transform.position, transform.forward * hit.distance);
-            Gizmos.DrawWireCube(transform.position + transform.forward * hit.distance, transform.lossyScale);
-
+            // Gizmos.DrawWireCube(transform.position + transform.forward * hit.distance, transform.lossyScale);
+            _sphereHit.transform.position = hit.point;
+            _sphereHit.SetActive(true);
             GameObject hitObject = hit.collider.gameObject;
 
             if (hitObject != null)
@@ -61,6 +65,7 @@ public class BoxCaster : MonoBehaviour
         }
         else
         {
+            _sphereHit.SetActive(false);
             Gizmos.color = Color.green;
             Gizmos.DrawRay(transform.position, transform.forward * maxDistance);
 

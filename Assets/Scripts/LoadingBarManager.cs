@@ -107,6 +107,15 @@ public class LoadingBarManager : MonoBehaviour
         PlayClip_Correct();
     }
 
+    public void ResetOutLine()
+    {
+        LoadingBarImage.color = StartColor;
+        LoadingBar.value = 0;
+        LoadingBar.gameObject.SetActive(false);
+        _complet = false;
+        outline.OutlineWidth = 0f;
+    }
+
     public void Hitted()
     {
         Console.WriteLine("Be hitted");

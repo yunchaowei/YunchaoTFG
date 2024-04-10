@@ -10,6 +10,7 @@ public class SceneManager : MonoBehaviour
 {
     public enum HeightOptions
     {
+        None = 0,
         Low = 1,
         Medium = 2,
         High = 3
@@ -18,6 +19,7 @@ public class SceneManager : MonoBehaviour
     public HeightOptions HeightOption = HeightOptions.Medium;
     public string UserName = "Test User";
     [Range(1.20f, 2.00f)]public float UserHeight;
+    [Range(1.00f, 5.00f)] public float MaxDistanceCasting;
     public GameObject Furnitures;
     public bool CanChangeHeight = false;
     //[Range(0.01f, 0.50f)] public float height = 0;
@@ -28,6 +30,7 @@ public class SceneManager : MonoBehaviour
     public float lookAtItemHegiht;
     public float selectionState;
     public List<GameObject> FurnituresScaled = new List<GameObject>();
+    public List<GameObject> FurnituresSelectables = new List<GameObject>();
     public GameObject cameraParent;
     public float finalHeight;
     //public GameObject cameraY;
@@ -38,8 +41,11 @@ public class SceneManager : MonoBehaviour
         //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
        switch (HeightOption)
         {
-            case HeightOptions.Low:
+            case HeightOptions.None:
                 height = 0;
+                break;
+            case HeightOptions.Low:
+                height = 0.5f;
                 break;
             case HeightOptions.Medium:
                 height = 0.1f;
@@ -63,6 +69,25 @@ public class SceneManager : MonoBehaviour
             }
         }
         StartCoroutine(CollectDataRoutine());
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            //Reset Furnitures
+            _reset_Furnitures();
+        }
+    }
+
+    private void _reset_Furnitures()
+    {
+        foreach (GameObject go in FurnituresSelectables)
+        {
+            LoadingBarManager lbm = go.GetComponent<LoadingBarManager>();
+            if (lbm != null)
+                lbm.ResetOutLine();
+        }
     }
 
     IEnumerator CollectDataRoutine()
