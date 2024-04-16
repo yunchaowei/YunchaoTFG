@@ -13,7 +13,8 @@ public class SceneManager : MonoBehaviour
         None = 0,
         Low = 1,
         Medium = 2,
-        High = 3
+        High = 3,
+        VeryHigh = 4
     }
 
     public HeightOptions HeightOption = HeightOptions.Medium;
@@ -45,13 +46,16 @@ public class SceneManager : MonoBehaviour
                 height = 0;
                 break;
             case HeightOptions.Low:
-                height = 0.5f;
+                height = 0.05f;
                 break;
             case HeightOptions.Medium:
                 height = 0.1f;
                 break;
             case HeightOptions.High:
                 height = 0.2f;
+                break;
+            case HeightOptions.VeryHigh:
+                height = 0.5f;
                 break;
         }
 

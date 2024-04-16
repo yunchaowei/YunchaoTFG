@@ -3,7 +3,7 @@
     "userHeight": 1.7000000476837159,
     "data": [
         {
-            "timestamp": 1709828138,
+            "timestamp": 1713266913,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.0,
@@ -21,97 +21,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828140,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.1332087367773056
-        },
-        {
-            "timestamp": 1709828140,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.29216712713241579
-        },
-        {
-            "timestamp": 1709828141,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828141,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.16617923974990846
-        },
-        {
-            "timestamp": 1709828142,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 2,
-            "LookAtItemName": "Banquet",
-            "LookAtItemHegiht": 0.09919977188110352,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828142,
+            "timestamp": 1713266914,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -129,7 +39,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828143,
+            "timestamp": 1713266915,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -147,7 +57,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828143,
+            "timestamp": 1713266915,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -165,7 +75,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828144,
+            "timestamp": 1713266916,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -183,7 +93,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828144,
+            "timestamp": 1713266916,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -201,7 +111,25 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828145,
+            "timestamp": 1713266917,
+            "playerPosition": {
+                "x": -2.321000099182129,
+                "y": 0.20000000298023225,
+                "z": -1.5829999446868897
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "LookAtItemID": 4,
+            "LookAtItemName": "Teapot",
+            "LookAtItemHegiht": 0.7019996643066406,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1713266917,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -219,7 +147,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828145,
+            "timestamp": 1713266918,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -237,7 +165,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828146,
+            "timestamp": 1713266918,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -255,79 +183,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828146,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.0772501528263092
-        },
-        {
-            "timestamp": 1709828147,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.23514324426651
-        },
-        {
-            "timestamp": 1709828147,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.08557479828596115
-        },
-        {
-            "timestamp": 1709828148,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.24358394742012025
-        },
-        {
-            "timestamp": 1709828148,
+            "timestamp": 1713266919,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -345,43 +201,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828149,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828149,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.20045702159404756
-        },
-        {
-            "timestamp": 1709828150,
+            "timestamp": 1713266919,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -399,7 +219,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828150,
+            "timestamp": 1713266920,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -417,43 +237,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828151,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 3,
-            "LookAtItemName": "Banquet",
-            "LookAtItemHegiht": 0.09919977188110352,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828151,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.10262279212474823
-        },
-        {
-            "timestamp": 1709828152,
+            "timestamp": 1713266920,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -471,7 +255,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828152,
+            "timestamp": 1713266921,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -489,7 +273,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828153,
+            "timestamp": 1713266921,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -507,25 +291,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828153,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.10263765603303909
-        },
-        {
-            "timestamp": 1709828154,
+            "timestamp": 1713266922,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -543,7 +309,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828154,
+            "timestamp": 1713266922,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -561,7 +327,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828155,
+            "timestamp": 1713266923,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -579,7 +345,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828155,
+            "timestamp": 1713266923,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -597,7 +363,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828156,
+            "timestamp": 1713266924,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -615,43 +381,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828156,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828157,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828157,
+            "timestamp": 1713266924,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -669,43 +399,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828158,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.1439850777387619
-        },
-        {
-            "timestamp": 1709828158,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828159,
+            "timestamp": 1713266925,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -723,7 +417,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828159,
+            "timestamp": 1713266925,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -741,7 +435,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828160,
+            "timestamp": 1713266926,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -759,7 +453,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828160,
+            "timestamp": 1713266926,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -777,7 +471,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828161,
+            "timestamp": 1713266927,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -795,7 +489,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828161,
+            "timestamp": 1713266927,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -813,385 +507,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828162,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828162,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.18801699578762055
-        },
-        {
-            "timestamp": 1709828163,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.3459889590740204
-        },
-        {
-            "timestamp": 1709828163,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.4999132752418518
-        },
-        {
-            "timestamp": 1709828164,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.6580380201339722
-        },
-        {
-            "timestamp": 1709828164,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.814521849155426
-        },
-        {
-            "timestamp": 1709828165,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 0.9741988778114319
-        },
-        {
-            "timestamp": 1709828165,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828166,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828167,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828167,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828168,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.2250528186559677
-        },
-        {
-            "timestamp": 1709828168,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.38506075739860537
-        },
-        {
-            "timestamp": 1709828169,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.5388473272323608
-        },
-        {
-            "timestamp": 1709828169,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.6951810121536255
-        },
-        {
-            "timestamp": 1709828170,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 0.8506914377212524
-        },
-        {
-            "timestamp": 1709828170,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828171,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828171,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828172,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828172,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 5,
-            "LookAtItemName": "picture",
-            "LookAtItemHegiht": 1.99399995803833,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828173,
+            "timestamp": 1713266928,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1209,547 +525,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828173,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828174,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828174,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828175,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828175,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828176,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828176,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828177,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828177,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828178,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828178,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828179,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828179,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828180,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828180,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828181,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828181,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828182,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828182,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828183,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.0
-        },
-        {
-            "timestamp": 1709828183,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.15363779664039613
-        },
-        {
-            "timestamp": 1709828184,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.31094565987586977
-        },
-        {
-            "timestamp": 1709828184,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.46804362535476687
-        },
-        {
-            "timestamp": 1709828185,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.6220539808273315
-        },
-        {
-            "timestamp": 1709828185,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.7759719491004944
-        },
-        {
-            "timestamp": 1709828186,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 0.9299797415733337
-        },
-        {
-            "timestamp": 1709828186,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828187,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828187,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828188,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828188,
+            "timestamp": 1713266928,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1767,7 +543,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828189,
+            "timestamp": 1713266929,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1785,7 +561,7 @@
             "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828189,
+            "timestamp": 1713266929,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1797,13 +573,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828190,
+            "timestamp": 1713266930,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1815,13 +591,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828190,
+            "timestamp": 1713266930,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1833,13 +609,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828191,
+            "timestamp": 1713266931,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1851,13 +627,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828191,
+            "timestamp": 1713266931,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1869,13 +645,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828192,
+            "timestamp": 1713266932,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1887,13 +663,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828192,
+            "timestamp": 1713266932,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1905,13 +681,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828193,
+            "timestamp": 1713266933,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1923,13 +699,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828193,
+            "timestamp": 1713266933,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1941,13 +717,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828194,
+            "timestamp": 1713266934,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1959,13 +735,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828194,
+            "timestamp": 1713266934,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1977,13 +753,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828195,
+            "timestamp": 1713266935,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -1995,13 +771,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828195,
+            "timestamp": 1713266935,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2013,13 +789,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828196,
+            "timestamp": 1713266936,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2031,13 +807,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828196,
+            "timestamp": 1713266936,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2049,13 +825,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828197,
+            "timestamp": 1713266937,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2067,13 +843,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828197,
+            "timestamp": 1713266937,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2085,13 +861,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828198,
+            "timestamp": 1713266938,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2103,13 +879,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828198,
+            "timestamp": 1713266938,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2121,13 +897,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828199,
+            "timestamp": 1713266939,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2139,13 +915,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828199,
+            "timestamp": 1713266939,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2157,13 +933,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828200,
+            "timestamp": 1713266940,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2175,13 +951,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828200,
+            "timestamp": 1713266940,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2193,13 +969,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828201,
+            "timestamp": 1713266941,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2211,13 +987,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828201,
+            "timestamp": 1713266941,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2229,13 +1005,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828202,
+            "timestamp": 1713266942,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2247,13 +1023,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828203,
+            "timestamp": 1713266942,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2265,13 +1041,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828203,
+            "timestamp": 1713266943,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2283,13 +1059,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828204,
+            "timestamp": 1713266943,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2301,13 +1077,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828204,
+            "timestamp": 1713266944,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2319,13 +1095,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828205,
+            "timestamp": 1713266944,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2337,13 +1113,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828205,
+            "timestamp": 1713266945,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2355,13 +1131,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828206,
+            "timestamp": 1713266946,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2373,13 +1149,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828206,
+            "timestamp": 1713266946,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2391,13 +1167,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828207,
+            "timestamp": 1713266947,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2409,13 +1185,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 4,
-            "LookAtItemName": "Teapot",
-            "LookAtItemHegiht": 0.9019994735717773,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828207,
+            "timestamp": 1713266947,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2427,13 +1203,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828208,
+            "timestamp": 1713266948,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2445,13 +1221,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828208,
+            "timestamp": 1713266948,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2463,13 +1239,13 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         },
         {
-            "timestamp": 1709828209,
+            "timestamp": 1713266949,
             "playerPosition": {
                 "x": -2.321000099182129,
                 "y": 0.20000000298023225,
@@ -2481,100 +1257,10 @@
                 "z": 0.0,
                 "w": 1.0
             },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828209,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828210,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828210,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828211,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
-        },
-        {
-            "timestamp": 1709828211,
-            "playerPosition": {
-                "x": -2.321000099182129,
-                "y": 0.20000000298023225,
-                "z": -1.5829999446868897
-            },
-            "cameraRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "LookAtItemID": 6,
-            "LookAtItemName": "Chicken_2",
-            "LookAtItemHegiht": 1.174999713897705,
-            "SelectionState": 1.0
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
         }
     ]
 }
