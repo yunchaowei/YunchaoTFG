@@ -5,6 +5,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static SceneManager;
 
 public class SceneManager : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class SceneManager : MonoBehaviour
         High = 3,
         VeryHigh = 4
     }
-
+    private int _heightOptions = 0;
     public HeightOptions HeightOption = HeightOptions.Medium;
     public string UserName = "Test User";
     [Range(1.20f, 2.00f)]public float UserHeight;
@@ -41,37 +42,25 @@ public class SceneManager : MonoBehaviour
 
         //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
        switch (HeightOption)
-        {
+       {
             case HeightOptions.None:
-                height = 0;
+                _heightOptions = 0;
                 break;
             case HeightOptions.Low:
-                height = 0.05f;
+                _heightOptions = 1;
                 break;
             case HeightOptions.Medium:
-                height = 0.1f;
+                _heightOptions = 2;
                 break;
             case HeightOptions.High:
-                height = 0.2f;
+                _heightOptions = 3;
                 break;
             case HeightOptions.VeryHigh:
-                height = 0.5f;
+                _heightOptions = 4;
                 break;
         }
+        _changeHeights(true);
 
-        finalHeight = cameraParent.transform.position.y + height;
-        if (CanChangeHeight)
-        {
-            Furnitures.transform.position = new Vector3(Furnitures.transform.position.x,
-                                                        Furnitures.transform.position.y + height, 
-                                                        Furnitures.transform.position.z);
-            foreach(GameObject go in FurnituresScaled)
-            {
-                go.transform.localScale = new Vector3(go.transform.localScale.x,
-                                                        go.transform.localScale.y + height,
-                                                        go.transform.localScale.z);
-            }
-        }
         StartCoroutine(CollectDataRoutine());
     }
 
@@ -82,6 +71,78 @@ public class SceneManager : MonoBehaviour
             //Reset Furnitures
             _reset_Furnitures();
         }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            _heightOptions++;
+            if (_heightOptions > 4)
+                _heightOptions = 4;
+            else
+                _changeHeights(true);
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            _heightOptions--;
+            if (_heightOptions < 0)
+                _heightOptions = 0;
+            else
+                _changeHeights(false);
+        }
+    }
+
+    private void _changeHeights(bool sum)
+    {
+        switch (_heightOptions)
+        {
+            case 0:
+                HeightOption = HeightOptions.None;
+                if(sum)
+                    height = 0;
+                else
+                    height = -0.05f;
+                break;
+            case 1:
+                HeightOption = HeightOptions.Low;
+                if(sum)
+                    height = 0.05f;
+                else
+                    height = -0.1f;
+                break;
+            case 2:
+                HeightOption = HeightOptions.Medium;
+                if (sum)
+                    height = 0.1f;
+                else
+                    height = -0.2f;
+                break;
+            case 3:
+                HeightOption = HeightOptions.High;
+                if (sum)
+                    height = 0.2f;
+                else
+                    height = -0.5f;
+                break;
+            case 4:
+                HeightOption = HeightOptions.VeryHigh;
+                if (sum)
+                    height = 0.5f;
+
+                break;
+        }
+
+        finalHeight = cameraParent.transform.position.y + height;
+        if (CanChangeHeight)
+        {
+            Furnitures.transform.position = new Vector3(Furnitures.transform.position.x,
+                                                        Furnitures.transform.position.y + height,
+                                                        Furnitures.transform.position.z);
+            foreach (GameObject go in FurnituresScaled)
+            {
+                go.transform.localScale = new Vector3(go.transform.localScale.x,
+                                                      go.transform.localScale.y+height,  //(go.transform.parent.transform.position.y + height)/ go.transform.parent.transform.position.y,
+                                                        go.transform.localScale.z);
+            }
+        }
+
     }
 
     private void _reset_Furnitures()
