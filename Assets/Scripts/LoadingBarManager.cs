@@ -24,7 +24,7 @@ public class LoadingBarManager : MonoBehaviour
     private float WaitSeconds = 0.25f;
     public AudioClip clipCounting;
     public AudioClip clipCorrect;
-    Outline outline = null;
+    QuickOutline outline = null;
     public float SelectionStatus
     {
         get { return LoadingBar.value; }
@@ -40,8 +40,8 @@ public class LoadingBarManager : MonoBehaviour
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
 
-        outline = gameObject.GetComponent<Outline>();
-        outline.OutlineMode = Outline.Mode.OutlineAll;
+        outline = gameObject.GetComponent<QuickOutline>();
+        outline.OutlineMode = QuickOutline.Mode.OutlineAll;
         outline.OutlineColor = Color.green;
         outline.OutlineWidth = 0f;
     }

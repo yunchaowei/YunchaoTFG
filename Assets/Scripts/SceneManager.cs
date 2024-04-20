@@ -135,12 +135,12 @@ public class SceneManager : MonoBehaviour
             Furnitures.transform.position = new Vector3(Furnitures.transform.position.x,
                                                         Furnitures.transform.position.y + height,
                                                         Furnitures.transform.position.z);
-            foreach (GameObject go in FurnituresScaled)
-            {
-                go.transform.localScale = new Vector3(go.transform.localScale.x,
-                                                      go.transform.localScale.y+height,  //(go.transform.parent.transform.position.y + height)/ go.transform.parent.transform.position.y,
-                                                        go.transform.localScale.z);
-            }
+            //foreach (GameObject go in FurnituresScaled)
+            //{
+            //    go.transform.localScale = new Vector3(go.transform.localScale.x,
+            //                                          go.transform.localScale.y+height,  //(go.transform.parent.transform.position.y + height)/ go.transform.parent.transform.position.y,
+            //                                            go.transform.localScale.z);
+            //}
         }
 
     }
