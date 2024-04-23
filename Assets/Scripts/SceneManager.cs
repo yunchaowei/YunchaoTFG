@@ -98,33 +98,33 @@ public class SceneManager : MonoBehaviour
                 if(sum)
                     height = 0;
                 else
-                    height = -0.05f;
+                    height = -0.15f;
                 break;
             case 1:
                 HeightOption = HeightOptions.Low;
                 if(sum)
-                    height = 0.05f;
+                    height = 0.15f;
                 else
-                    height = -0.1f;
+                    height = -0.3f;
                 break;
             case 2:
                 HeightOption = HeightOptions.Medium;
                 if (sum)
-                    height = 0.1f;
+                    height = 0.3f;
                 else
-                    height = -0.2f;
+                    height = -0.45f;
                 break;
             case 3:
                 HeightOption = HeightOptions.High;
                 if (sum)
-                    height = 0.2f;
+                    height = 0.45f;
                 else
-                    height = -0.5f;
+                    height = -0.6f;
                 break;
             case 4:
                 HeightOption = HeightOptions.VeryHigh;
                 if (sum)
-                    height = 0.5f;
+                    height = 0.6f;
 
                 break;
         }
