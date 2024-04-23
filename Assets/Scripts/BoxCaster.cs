@@ -19,11 +19,11 @@ public class BoxCaster : MonoBehaviour
     {
         _sceneManager = SceneManager.GetComponent<SceneManager>();
         //_sphereHit = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        maxDistance = _sceneManager != null ? _sceneManager.MaxDistanceCasting : 2.5f;
     }
 
     private void Update()
     {
+        maxDistance = _sceneManager != null ? _sceneManager.MaxDistanceCasting : 2.5f;
         // bool isHit = Physics.BoxCast(transform.position, transform.lossyScale / 3, transform.forward, out hit, transform.rotation, maxDistance);
         isHit = Physics.Raycast(transform.position, transform.forward, out hit, maxDistance);
         if (isHit)

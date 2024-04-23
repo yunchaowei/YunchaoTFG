@@ -34,6 +34,7 @@ public class SceneManager : MonoBehaviour
     public List<GameObject> FurnituresScaled = new List<GameObject>();
     public List<GameObject> FurnituresSelectables = new List<GameObject>();
     public GameObject cameraParent;
+    public GameObject OVRCameraRig;
     public float finalHeight;
     //public GameObject cameraY;
     // Start is called before the first frame update
@@ -60,6 +61,13 @@ public class SceneManager : MonoBehaviour
                 break;
         }
         _changeHeights(true);
+
+        if(OVRCameraRig != null)
+        {
+            OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
+                                                        OVRCameraRig.transform.position.y + UserHeight - 0.1f,
+                                                        OVRCameraRig.transform.position.z);
+        }
 
         StartCoroutine(CollectDataRoutine());
     }
