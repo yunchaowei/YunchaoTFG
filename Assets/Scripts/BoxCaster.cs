@@ -13,7 +13,7 @@ public class BoxCaster : MonoBehaviour
     public GameObject _sphereHit;
     private bool isHit = false;
     RaycastHit hit;
-    float maxDistance;
+    float maxDistance = 1;
     // Start is called before the first frame update
     void Start()
     {

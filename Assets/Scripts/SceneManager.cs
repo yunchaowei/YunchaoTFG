@@ -40,9 +40,15 @@ public class SceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (OVRCameraRig != null)
+        {
+            OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
+                                                        UserHeight - 0.1f,
+                                                        OVRCameraRig.transform.position.z);
+        }
 
         //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
-       switch (HeightOption)
+        switch (HeightOption)
        {
             case HeightOptions.None:
                 _heightOptions = 0;
@@ -62,12 +68,6 @@ public class SceneManager : MonoBehaviour
         }
         _changeHeights(true);
 
-        if(OVRCameraRig != null)
-        {
-            OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
-                                                        OVRCameraRig.transform.position.y + UserHeight - 0.1f,
-                                                        OVRCameraRig.transform.position.z);
-        }
 
         StartCoroutine(CollectDataRoutine());
     }
@@ -149,6 +149,10 @@ public class SceneManager : MonoBehaviour
             //                                          go.transform.localScale.y+height,  //(go.transform.parent.transform.position.y + height)/ go.transform.parent.transform.position.y,
             //                                            go.transform.localScale.z);
             //}
+            if (OVRCameraRig != null)
+            {
+                finalHeight = OVRCameraRig.transform.position.y + height;
+            }
         }
 
     }
@@ -190,8 +194,13 @@ public class SceneManager : MonoBehaviour
     void LateUpdate()
     {
 
-            cameraParent.transform.position = new Vector3(cameraParent.transform.position.x, finalHeight, cameraParent.transform.position.z);
-       
+        cameraParent.transform.position = new Vector3(cameraParent.transform.position.x, finalHeight, cameraParent.transform.position.z);
+        if (OVRCameraRig != null)
+        {
+            OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
+                                                        finalHeight,
+                                                        OVRCameraRig.transform.position.z);
+        }
     }
 
     public void Clear_ItemState()
