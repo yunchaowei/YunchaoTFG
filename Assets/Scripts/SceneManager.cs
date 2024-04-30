@@ -20,7 +20,7 @@ public class SceneManager : MonoBehaviour
     private int _heightOptions = 0;
     public HeightOptions HeightOption = HeightOptions.Medium;
     public string UserName = "Test User";
-    [Range(1.20f, 2.00f)]public float UserHeight;
+    [Range(0.1f, 2.00f)]public float UserHeight;
     [Range(1.00f, 5.00f)] public float MaxDistanceCasting;
     public GameObject Furnitures;
     public bool CanChangeHeight = false;
