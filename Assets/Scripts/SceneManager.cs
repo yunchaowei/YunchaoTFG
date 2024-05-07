@@ -13,7 +13,7 @@ using static System.Net.Mime.MediaTypeNames;
 using static UnityEngine.Rendering.DebugUI;
 
 public class SceneManager : MonoBehaviour
-{
+{//https://www.youtube.com/watch?v=xk-LLY7scvM
     public enum HeightOptions
     {
         None = 0,
@@ -25,7 +25,7 @@ public class SceneManager : MonoBehaviour
     private int _heightOptions = 0;
     public HeightOptions HeightOption = HeightOptions.Medium;
     public string UserName = "Test User";
-    const float MinUserHeight = 1.4f;
+    const float MinUserHeight = 0f;
     const float MaxUserHeight = 2f;
     [Range(MinUserHeight, MaxUserHeight)]public float UserHeight;
     [Range(1.00f, 5.00f)] public float MaxDistanceCasting;
@@ -57,9 +57,9 @@ public class SceneManager : MonoBehaviour
     {
         if (OVRCameraRig != null)
         {
-            OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
-                                                        UserHeight - 0.1f,
-                                                        OVRCameraRig.transform.position.z);
+            //OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
+            //                                            UserHeight - 0.1f,
+            //                                            OVRCameraRig.transform.position.z);
         }
         FurnituresOriginalHeight = Furnitures.transform.position.y;
         OVRCameraRigOriginalHeight = OVRCameraRig.transform.position.y;
@@ -218,7 +218,7 @@ public class SceneManager : MonoBehaviour
             //}
             if (OVRCameraRig != null)
             {
-                finalHeight = OVRCameraRigOriginalHeight + height;
+                finalHeight = OVRCameraRigOriginalHeight + additionalHeight;
             }
         }
     }
