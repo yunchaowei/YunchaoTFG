@@ -167,16 +167,23 @@ public class SceneManager : MonoBehaviour
             Debug.Log("A button was pressed on Right Touch Controller.");
             OpsUserConfigMenu(true);
         }
-        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch))
-        {
-            Debug.Log("B button was pressed on Right Touch Controller.");
-            OpsUserConfigMenu(false);
-        }
         if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
         {
-            Debug.Log("A button was pressed on Right Touch Controller.");
-            OpsUserConfigMenu(true);
+            _heightOptions++;
+            if (_heightOptions > 4)
+                _heightOptions = 4;
+            else
+                _changeHeights(true);
         }
+        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch))
+        {
+            _heightOptions--;
+            if (_heightOptions < 0)
+                _heightOptions = 0;
+            else
+                _changeHeights(false);
+        }
+        
     }
 
     private void OpsUserConfigMenu(bool open)
