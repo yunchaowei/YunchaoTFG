@@ -91,7 +91,7 @@ public class SceneManager : MonoBehaviour
         StartCoroutine(CollectDataRoutine());
     }
 
-    private void btnUserConfigSaveClicked()
+    public void btnUserConfigSaveClicked()
     {
         UserName = InputFieldUserID.text;
         UserHeight = float.Parse(texUsertHeight.text);
