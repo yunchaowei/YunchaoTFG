@@ -430,6 +430,8 @@ MonoBehaviour:
   InputFieldUserID: {fileID: 1350519431}
   toggleGroup: {fileID: 767845482}
   CanvasUserConfig: {fileID: 36982002}
+  VRCharacterIK: {fileID: 1328548127}
+  CenterEyeAnchor: {fileID: 1072771864}
 --- !u!4 &8684903
 Transform:
   m_ObjectHideFlags: 0
@@ -15219,7 +15221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &926883451
 RectTransform:
   m_ObjectHideFlags: 0

@@ -650,6 +650,7 @@ MonoBehaviour:
   m_renderMode: 1
   m_depthSubmissionMode: 0
   m_symmetricProjection: 0
+  versionChanged: 0
 --- !u!114 &2343502144729163237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,6 +919,7 @@ MonoBehaviour:
   m_renderMode: 1
   m_depthSubmissionMode: 0
   m_symmetricProjection: 0
+  versionChanged: 0
 --- !u!114 &8703195712704358499
 MonoBehaviour:
   m_ObjectHideFlags: 0

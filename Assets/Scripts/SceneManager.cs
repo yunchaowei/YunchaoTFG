@@ -1,3 +1,4 @@
+﻿using Oculus.Platform;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -51,16 +52,26 @@ public class SceneManager : MonoBehaviour
     public TMP_InputField InputFieldUserID;
     public ToggleGroup toggleGroup;
     public GameObject CanvasUserConfig;
+    public GameObject VRCharacterIK;
+    public GameObject CenterEyeAnchor;
+    float userBaseHeight = 1.8f;
+    const float defaultCharacterHeight = 1.8f;
+    private const string CounterKey = "runCounter";
     //public GameObject cameraY;
     // Start is called before the first frame update
     void Start()
     {
+        _incrementRunCounter();
         if (OVRCameraRig != null)
         {
             //OVRCameraRig.transform.position = new Vector3(OVRCameraRig.transform.position.x,
             //                                            UserHeight - 0.1f,
             //                                            OVRCameraRig.transform.position.z);
         }
+        userBaseHeight = CenterEyeAnchor.transform.position.y + 0.1f;
+        if(userBaseHeight == 0.1f)
+            userBaseHeight = 1.8f;
+        _changeVRBodyHeight(userBaseHeight - defaultCharacterHeight);
         FurnituresOriginalHeight = Furnitures.transform.position.y;
         OVRCameraRigOriginalHeight = OVRCameraRig.transform.position.y;
         //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
@@ -91,10 +102,24 @@ public class SceneManager : MonoBehaviour
         StartCoroutine(CollectDataRoutine());
     }
 
+    private void _incrementRunCounter()
+    {
+        int runCount = PlayerPrefs.GetInt(CounterKey, 0);
+
+        runCount++;
+
+        PlayerPrefs.SetInt(CounterKey, runCount);
+
+        Debug.Log($"This application has been run {runCount} times.");
+
+        PlayerPrefs.Save();
+    }
+
     public void btnUserConfigSaveClicked()
     {
         UserName = InputFieldUserID.text;
-        UserHeight = float.Parse(texUsertHeight.text);
+        //UserHeight = float.Parse(texUsertHeight.text);
+        UserHeight = CenterEyeAnchor.transform.position.y;
         UnityEngine.UI.Toggle selectedToggle = toggleGroup.ActiveToggles().FirstOrDefault();
         if(selectedToggle != null)
         {
@@ -227,6 +252,26 @@ public class SceneManager : MonoBehaviour
             {
                 finalHeight = OVRCameraRigOriginalHeight + additionalHeight;
             }
+            _changeVRBodyHeight(finalHeight);
+        }
+    }
+
+    private void _changeVRBodyHeight(float extraHeight)
+    {
+        if (VRCharacterIK != null)
+        {
+            if (Mathf.Abs(userBaseHeight) < Mathf.Epsilon) 
+            {
+                Debug.LogError("Base height is too close to zero, which is not valid for scaling.");
+                return;
+            }
+
+            float targetHeight = userBaseHeight + extraHeight;
+
+            float scaleFactor = targetHeight / userBaseHeight;
+
+            VRCharacterIK.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
+
         }
     }
 
@@ -286,6 +331,7 @@ public class SceneManager : MonoBehaviour
             {
                 finalHeight = OVRCameraRig.transform.position.y + height;
             }
+            _changeVRBodyHeight(finalHeight);
         }
 
     }
@@ -351,6 +397,8 @@ public class SceneManager : MonoBehaviour
 
     void SaveGameData()
     {
+        int key = PlayerPrefs.GetInt(CounterKey);
+        UserName = $"User_{key}";
         GameDataList dataList = new GameDataList();
         dataList.data = gameDataList;
         dataList.userName = UserName;
