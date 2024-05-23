@@ -53,6 +53,11 @@ public class SceneManager : MonoBehaviour
     public ToggleGroup toggleGroup;
     public GameObject CanvasUserConfig;
     public GameObject VRCharacterIK;
+    public GameObject VRCharacterIK2;
+    public GameObject VRCharacterIK3;
+    public GameObject VRCharacterIK4;
+    public GameObject VRCharacterIK5;
+    public GameObject HeadOffset;
     public GameObject CenterEyeAnchor;
     float userBaseHeight = 1.8f;
     const float defaultCharacterHeight = 1.8f;
@@ -182,6 +187,11 @@ public class SceneManager : MonoBehaviour
                 _changeHeights(false);
         }
 
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
+        {
+            _reset_Furnitures();//Right Hand Trigger
+        }
+
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
             Debug.Log("B button was pressed on Right Touch Controller.");
@@ -192,7 +202,7 @@ public class SceneManager : MonoBehaviour
             Debug.Log("A button was pressed on Right Touch Controller.");
             OpsUserConfigMenu(true);
         }
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
+        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch))
         {
             _heightOptions++;
             if (_heightOptions > 4)
@@ -200,7 +210,7 @@ public class SceneManager : MonoBehaviour
             else
                 _changeHeights(true);
         }
-        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch))
+        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch))
         {
             _heightOptions--;
             if (_heightOptions < 0)
@@ -253,6 +263,9 @@ public class SceneManager : MonoBehaviour
                 finalHeight = OVRCameraRigOriginalHeight + additionalHeight;
             }
             _changeVRBodyHeight(finalHeight);
+            if (HeadOffset != null)
+                HeadOffset.transform.position = new Vector3(HeadOffset.transform.position.x, HeadOffset.transform.position.y - additionalHeight, HeadOffset.transform.position.z);
+            //VRCharacterIK.transform.localScale = new Vector3(VRCharacterIK.transform.localScale.x, VRCharacterIK.transform.localScale.y + additionalHeight, VRCharacterIK.transform.localScale.z);
         }
     }
 
@@ -268,10 +281,48 @@ public class SceneManager : MonoBehaviour
 
             float targetHeight = userBaseHeight + extraHeight;
 
-            float scaleFactor = targetHeight / userBaseHeight;
+            float scaleFactor = targetHeight / userBaseHeight;//1.083, 1.25, 1.5, 1.83
 
-            VRCharacterIK.transform.localScale = new Vector3(scaleFactor, scaleFactor, scaleFactor);
-
+            //VRCharacterIK.transform.localScale = new Vector3(VRCharacterIK.transform.localScale.x, scaleFactor, VRCharacterIK.transform.localScale.z);
+            //VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, VRCharacterIK.transform.position.y+ extraHeight, VRCharacterIK.transform.position.z);
+            switch (HeightOption)
+            {
+                case HeightOptions.None:
+                    VRCharacterIK.SetActive(true);
+                    VRCharacterIK2.SetActive(false);
+                    VRCharacterIK3.SetActive(false);
+                    VRCharacterIK4.SetActive(false);
+                    VRCharacterIK5.SetActive(false);
+                    break;
+                case HeightOptions.Low:
+                    VRCharacterIK.SetActive(false);
+                    VRCharacterIK2.SetActive(true);
+                    VRCharacterIK3.SetActive(false);
+                    VRCharacterIK4.SetActive(false);
+                    VRCharacterIK5.SetActive(false);
+                    break;
+                case HeightOptions.Medium:
+                    VRCharacterIK.SetActive(false);
+                    VRCharacterIK2.SetActive(false);
+                    VRCharacterIK3.SetActive(true);
+                    VRCharacterIK4.SetActive(false);
+                    VRCharacterIK5.SetActive(false);
+                    break;
+                case HeightOptions.High:
+                    VRCharacterIK.SetActive(false);
+                    VRCharacterIK2.SetActive(false);
+                    VRCharacterIK3.SetActive(false);
+                    VRCharacterIK4.SetActive(true);
+                    VRCharacterIK5.SetActive(false);
+                    break;
+                case HeightOptions.VeryHigh:
+                    VRCharacterIK.SetActive(false);
+                    VRCharacterIK2.SetActive(false);
+                    VRCharacterIK3.SetActive(false);
+                    VRCharacterIK4.SetActive(false);
+                    VRCharacterIK5.SetActive(true);
+                    break;
+            }
         }
     }
 
@@ -332,6 +383,10 @@ public class SceneManager : MonoBehaviour
                 finalHeight = OVRCameraRig.transform.position.y + height;
             }
             _changeVRBodyHeight(finalHeight);
+            if (HeadOffset != null)
+                HeadOffset.transform.position = new Vector3(HeadOffset.transform.position.x, HeadOffset.transform.position.y - height, HeadOffset.transform.position.z);
+            //VRCharacterIK.transform.localScale = new Vector3(VRCharacterIK.transform.localScale.x, VRCharacterIK.transform.localScale.y + height, VRCharacterIK.transform.localScale.z);
+
         }
 
     }
@@ -380,6 +435,8 @@ public class SceneManager : MonoBehaviour
                                                         finalHeight,
                                                         OVRCameraRig.transform.position.z);
         }
+
+        //VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, VRCharacterIK.transform.position.y-finalHeight, VRCharacterIK.transform.position.z);
     }
 
     public void Clear_ItemState()
