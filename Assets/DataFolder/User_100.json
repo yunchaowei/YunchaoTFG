@@ -1,0 +1,1284 @@
+{
+    "userName": "User_100",
+    "userHeight": 0.10000000149011612,
+    "data": [
+        {
+            "timestamp": 1716890797,
+            "playerPosition": {
+                "x": -2.447000026702881,
+                "y": 0.0,
+                "z": -1.8910000324249268
+            },
+            "cameraRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890799,
+            "playerPosition": {
+                "x": -2.589595317840576,
+                "y": 1.85640549659729,
+                "z": -2.0677192211151125
+            },
+            "cameraRotation": {
+                "x": 0.007759302854537964,
+                "y": 0.5733237266540527,
+                "z": 0.001957698492333293,
+                "w": -0.8192898631095886
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890799,
+            "playerPosition": {
+                "x": -2.590118646621704,
+                "y": 1.856551170349121,
+                "z": -2.0649635791778566
+            },
+            "cameraRotation": {
+                "x": 0.006013654638081789,
+                "y": 0.5736173391342163,
+                "z": 0.0033570677042007448,
+                "w": -0.8190944790840149
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890800,
+            "playerPosition": {
+                "x": -2.592939853668213,
+                "y": 1.8445155620574952,
+                "z": -2.063833475112915
+            },
+            "cameraRotation": {
+                "x": -0.0387578047811985,
+                "y": 0.566561758518219,
+                "z": -0.02965484745800495,
+                "w": -0.8225729465484619
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890800,
+            "playerPosition": {
+                "x": -2.6170120239257814,
+                "y": 1.777616262435913,
+                "z": -2.056389331817627
+            },
+            "cameraRotation": {
+                "x": -0.2524406313896179,
+                "y": 0.5411879420280457,
+                "z": -0.1617756336927414,
+                "w": -0.7856322526931763
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890801,
+            "playerPosition": {
+                "x": -2.6191859245300295,
+                "y": 1.7799067497253419,
+                "z": -2.060244083404541
+            },
+            "cameraRotation": {
+                "x": -0.23977187275886537,
+                "y": 0.539154052734375,
+                "z": -0.15591317415237428,
+                "w": -0.7921575307846069
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890801,
+            "playerPosition": {
+                "x": -2.6065680980682375,
+                "y": 1.8033387660980225,
+                "z": -2.078770875930786
+            },
+            "cameraRotation": {
+                "x": -0.16833452880382539,
+                "y": 0.568000078201294,
+                "z": -0.12118171155452728,
+                "w": -0.796463668346405
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890802,
+            "playerPosition": {
+                "x": -2.5973081588745119,
+                "y": 1.8015570640563965,
+                "z": -2.086491584777832
+            },
+            "cameraRotation": {
+                "x": -0.1903194785118103,
+                "y": 0.5883305668830872,
+                "z": -0.11503898352384567,
+                "w": -0.7774391770362854
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890802,
+            "playerPosition": {
+                "x": -2.596784830093384,
+                "y": 1.809136152267456,
+                "z": -2.0868382453918459
+            },
+            "cameraRotation": {
+                "x": -0.16793501377105714,
+                "y": 0.6011613011360169,
+                "z": -0.10077354311943054,
+                "w": -0.7747564911842346
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890803,
+            "playerPosition": {
+                "x": -2.5945684909820558,
+                "y": 1.8101637363433838,
+                "z": -2.085845470428467
+            },
+            "cameraRotation": {
+                "x": -0.1668059229850769,
+                "y": 0.6069156527519226,
+                "z": -0.09795590490102768,
+                "w": -0.7708656787872315
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890803,
+            "playerPosition": {
+                "x": -2.580615758895874,
+                "y": 1.817336082458496,
+                "z": -2.071277141571045
+            },
+            "cameraRotation": {
+                "x": -0.14816345274448396,
+                "y": 0.5661707520484924,
+                "z": -0.07863432168960571,
+                "w": -0.8070408701896668
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890804,
+            "playerPosition": {
+                "x": -2.5626158714294435,
+                "y": 1.8138819932937623,
+                "z": -2.035299301147461
+            },
+            "cameraRotation": {
+                "x": -0.16420172154903413,
+                "y": 0.49213260412216189,
+                "z": -0.07865823805332184,
+                "w": -0.851267397403717
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890804,
+            "playerPosition": {
+                "x": -2.540588140487671,
+                "y": 1.8031604290008546,
+                "z": -1.9856770038604737
+            },
+            "cameraRotation": {
+                "x": -0.20305413007736207,
+                "y": 0.45111241936683657,
+                "z": -0.07885086536407471,
+                "w": -0.8654762506484985
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890805,
+            "playerPosition": {
+                "x": -2.5300586223602297,
+                "y": 1.8201675415039063,
+                "z": -2.010615110397339
+            },
+            "cameraRotation": {
+                "x": -0.1354149430990219,
+                "y": 0.5781075954437256,
+                "z": -0.06066426634788513,
+                "w": -0.8023554682731628
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890805,
+            "playerPosition": {
+                "x": -2.5279088020324709,
+                "y": 1.8342150449752808,
+                "z": -2.066009759902954
+            },
+            "cameraRotation": {
+                "x": -0.077629953622818,
+                "y": 0.7243567109107971,
+                "z": -0.04594362899661064,
+                "w": -0.6834984421730042
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890806,
+            "playerPosition": {
+                "x": -2.5188183784484865,
+                "y": 1.837716817855835,
+                "z": -2.083573341369629
+            },
+            "cameraRotation": {
+                "x": -0.06495581567287445,
+                "y": 0.7256962656974793,
+                "z": -0.037234947085380557,
+                "w": -0.6839292645454407
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890807,
+            "playerPosition": {
+                "x": -2.517580986022949,
+                "y": 1.838351845741272,
+                "z": -2.073793411254883
+            },
+            "cameraRotation": {
+                "x": -0.06470899283885956,
+                "y": 0.6331911087036133,
+                "z": -0.032192643731832507,
+                "w": -0.7706136703491211
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890807,
+            "playerPosition": {
+                "x": -2.5236446857452394,
+                "y": 1.8373208045959473,
+                "z": -2.0803050994873049
+            },
+            "cameraRotation": {
+                "x": -0.06967619061470032,
+                "y": 0.6191226243972778,
+                "z": -0.0375843308866024,
+                "w": -0.7812936902046204
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890808,
+            "playerPosition": {
+                "x": -2.53228759765625,
+                "y": 1.8311911821365357,
+                "z": -2.1006827354431154
+            },
+            "cameraRotation": {
+                "x": -0.08255336433649063,
+                "y": 0.669757068157196,
+                "z": -0.06634198129177094,
+                "w": -0.7349892258644104
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890808,
+            "playerPosition": {
+                "x": -2.541368007659912,
+                "y": 1.8233163356781006,
+                "z": -2.1205945014953615
+            },
+            "cameraRotation": {
+                "x": -0.10199248045682907,
+                "y": 0.7289914488792419,
+                "z": -0.09231503307819367,
+                "w": -0.6705572009086609
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890809,
+            "playerPosition": {
+                "x": -2.5424511432647707,
+                "y": 1.8290311098098755,
+                "z": -2.1139752864837648
+            },
+            "cameraRotation": {
+                "x": -0.09025372564792633,
+                "y": 0.7161208391189575,
+                "z": -0.07250920683145523,
+                "w": -0.6883077621459961
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890809,
+            "playerPosition": {
+                "x": -2.5443496704101564,
+                "y": 1.8348755836486817,
+                "z": -2.09507155418396
+            },
+            "cameraRotation": {
+                "x": -0.078205406665802,
+                "y": 0.641664445400238,
+                "z": -0.049195222556591037,
+                "w": -0.7614003419876099
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890810,
+            "playerPosition": {
+                "x": -2.5460681915283205,
+                "y": 1.8350414037704468,
+                "z": -2.0938212871551515
+            },
+            "cameraRotation": {
+                "x": -0.0753992348909378,
+                "y": 0.6189656257629395,
+                "z": -0.04814722388982773,
+                "w": -0.7803065776824951
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890810,
+            "playerPosition": {
+                "x": -2.551342725753784,
+                "y": 1.8339824676513672,
+                "z": -2.1087441444396974
+            },
+            "cameraRotation": {
+                "x": -0.0741962119936943,
+                "y": 0.6620277166366577,
+                "z": -0.06010803207755089,
+                "w": -0.7433715462684631
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890811,
+            "playerPosition": {
+                "x": -2.552370309829712,
+                "y": 1.8334228992462159,
+                "z": -2.11291766166687
+            },
+            "cameraRotation": {
+                "x": -0.07338520884513855,
+                "y": 0.6776397824287415,
+                "z": -0.06472364068031311,
+                "w": -0.7288551926612854
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890811,
+            "playerPosition": {
+                "x": -2.5497913360595705,
+                "y": 1.8336982727050782,
+                "z": -2.107008934020996
+            },
+            "cameraRotation": {
+                "x": -0.07450971752405167,
+                "y": 0.65809166431427,
+                "z": -0.0614355243742466,
+                "w": -0.7467191219329834
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890812,
+            "playerPosition": {
+                "x": -2.538280725479126,
+                "y": 1.83401620388031,
+                "z": -2.074946880340576
+            },
+            "cameraRotation": {
+                "x": -0.0847485214471817,
+                "y": 0.5787162184715271,
+                "z": -0.04935426637530327,
+                "w": -0.8096107244491577
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890812,
+            "playerPosition": {
+                "x": -2.509629249572754,
+                "y": 1.8284423351287842,
+                "z": -2.0011515617370607
+            },
+            "cameraRotation": {
+                "x": -0.10948316752910614,
+                "y": 0.4393991529941559,
+                "z": -0.03414685279130936,
+                "w": -0.8909409642219544
+            },
+            "LookAtItemID": 7,
+            "LookAtItemName": "Teapot (1)",
+            "LookAtItemHegiht": 1.080965280532837,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890813,
+            "playerPosition": {
+                "x": -2.5113487243652345,
+                "y": 1.8264517784118653,
+                "z": -1.9996962547302247
+            },
+            "cameraRotation": {
+                "x": -0.10814687609672547,
+                "y": 0.5085486769676209,
+                "z": -0.03981052339076996,
+                "w": -0.8532863855361939
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890813,
+            "playerPosition": {
+                "x": -2.5290658473968508,
+                "y": 1.8314528465270997,
+                "z": -2.0598273277282717
+            },
+            "cameraRotation": {
+                "x": -0.07287691533565521,
+                "y": 0.6742399334907532,
+                "z": -0.06164192408323288,
+                "w": -0.732318103313446
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890814,
+            "playerPosition": {
+                "x": -2.543761730194092,
+                "y": 1.831787347793579,
+                "z": -2.089782238006592
+            },
+            "cameraRotation": {
+                "x": -0.06461644172668457,
+                "y": 0.732379138469696,
+                "z": -0.06720772385597229,
+                "w": -0.6744840145111084
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890814,
+            "playerPosition": {
+                "x": -2.5549111366271974,
+                "y": 1.8324873447418213,
+                "z": -2.070930242538452
+            },
+            "cameraRotation": {
+                "x": -0.06936456263065338,
+                "y": 0.6217355728149414,
+                "z": -0.04926036298274994,
+                "w": -0.7785928845405579
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890815,
+            "playerPosition": {
+                "x": -2.5601084232330324,
+                "y": 1.8262534141540528,
+                "z": -2.051316022872925
+            },
+            "cameraRotation": {
+                "x": -0.10129731148481369,
+                "y": 0.5208013653755188,
+                "z": -0.042083997279405597,
+                "w": -0.8466013669967651
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890815,
+            "playerPosition": {
+                "x": -2.5804975032806398,
+                "y": 1.8258495330810547,
+                "z": -2.069705009460449
+            },
+            "cameraRotation": {
+                "x": -0.09927601367235184,
+                "y": 0.575869619846344,
+                "z": -0.0567496195435524,
+                "w": -0.8095047473907471
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890816,
+            "playerPosition": {
+                "x": -2.5990078449249269,
+                "y": 1.8273606300354005,
+                "z": -2.093358278274536
+            },
+            "cameraRotation": {
+                "x": -0.08488117158412934,
+                "y": 0.6708118915557861,
+                "z": -0.0750187560915947,
+                "w": -0.7329248189926148
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890816,
+            "playerPosition": {
+                "x": -2.6086983680725099,
+                "y": 1.8280339241027833,
+                "z": -2.088097095489502
+            },
+            "cameraRotation": {
+                "x": -0.09035596996545792,
+                "y": 0.6339882612228394,
+                "z": -0.0703602135181427,
+                "w": -0.764816403388977
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890817,
+            "playerPosition": {
+                "x": -2.613866090774536,
+                "y": 1.826943039894104,
+                "z": -2.081514358520508
+            },
+            "cameraRotation": {
+                "x": -0.09715894609689713,
+                "y": 0.6256766319274902,
+                "z": -0.07196884602308274,
+                "w": -0.7706551551818848
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890817,
+            "playerPosition": {
+                "x": -2.607532262802124,
+                "y": 1.8280346393585206,
+                "z": -2.0780954360961916
+            },
+            "cameraRotation": {
+                "x": -0.09755993634462357,
+                "y": 0.630665123462677,
+                "z": -0.06635843962430954,
+                "w": -0.7670333385467529
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890818,
+            "playerPosition": {
+                "x": -2.620764970779419,
+                "y": 1.8219999074935914,
+                "z": -2.0709774494171144
+            },
+            "cameraRotation": {
+                "x": -0.11994881927967072,
+                "y": 0.6154963970184326,
+                "z": -0.06072612851858139,
+                "w": -0.7765879034996033
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890818,
+            "playerPosition": {
+                "x": -2.6049234867095949,
+                "y": 1.8183534145355225,
+                "z": -2.0840251445770265
+            },
+            "cameraRotation": {
+                "x": -0.1317330300807953,
+                "y": 0.6301248073577881,
+                "z": -0.09120997786521912,
+                "w": -0.7597827911376953
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890819,
+            "playerPosition": {
+                "x": -2.6038622856140138,
+                "y": 1.8254263401031495,
+                "z": -2.0830488204956056
+            },
+            "cameraRotation": {
+                "x": -0.10282590240240097,
+                "y": 0.6290925145149231,
+                "z": -0.07182707637548447,
+                "w": -0.7671442627906799
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890819,
+            "playerPosition": {
+                "x": -2.5972306728363039,
+                "y": 1.826262354850769,
+                "z": -2.090312957763672
+            },
+            "cameraRotation": {
+                "x": -0.09846629947423935,
+                "y": 0.6433240175247192,
+                "z": -0.07535696029663086,
+                "w": -0.7554865479469299
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890820,
+            "playerPosition": {
+                "x": -2.5945382118225099,
+                "y": 1.824289083480835,
+                "z": -2.089172840118408
+            },
+            "cameraRotation": {
+                "x": -0.10615060478448868,
+                "y": 0.6355925798416138,
+                "z": -0.07652532309293747,
+                "w": -0.7608534693717957
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890820,
+            "playerPosition": {
+                "x": -2.5919275283813478,
+                "y": 1.825145959854126,
+                "z": -2.0942065715789797
+            },
+            "cameraRotation": {
+                "x": -0.10452961921691895,
+                "y": 0.6467591524124146,
+                "z": -0.08115290850400925,
+                "w": -0.7511260509490967
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890821,
+            "playerPosition": {
+                "x": -2.590332508087158,
+                "y": 1.8246684074401856,
+                "z": -2.0927507877349855
+            },
+            "cameraRotation": {
+                "x": -0.1032799556851387,
+                "y": 0.6471878290176392,
+                "z": -0.08160523325204849,
+                "w": -0.7508806586265564
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890821,
+            "playerPosition": {
+                "x": -2.59045147895813,
+                "y": 1.8235893249511719,
+                "z": -2.088404655456543
+            },
+            "cameraRotation": {
+                "x": -0.11088525503873825,
+                "y": 0.6478133797645569,
+                "z": -0.07892969995737076,
+                "w": -0.7495414614677429
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890822,
+            "playerPosition": {
+                "x": -2.5878713130950929,
+                "y": 1.8242430686950684,
+                "z": -2.0893733501434328
+            },
+            "cameraRotation": {
+                "x": -0.10783630609512329,
+                "y": 0.6487537026405335,
+                "z": -0.07789900153875351,
+                "w": -0.7492808103561401
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890822,
+            "playerPosition": {
+                "x": -2.585836887359619,
+                "y": 1.8234363794326783,
+                "z": -2.0926671028137209
+            },
+            "cameraRotation": {
+                "x": -0.10814373195171356,
+                "y": 0.6477813720703125,
+                "z": -0.07992001622915268,
+                "w": -0.7498647570610046
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890823,
+            "playerPosition": {
+                "x": -2.584280014038086,
+                "y": 1.8234893083572388,
+                "z": -2.0903310775756838
+            },
+            "cameraRotation": {
+                "x": -0.10919530689716339,
+                "y": 0.6467075347900391,
+                "z": -0.07820548117160797,
+                "w": -0.7508193254470825
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890823,
+            "playerPosition": {
+                "x": -2.5936384201049806,
+                "y": 1.8222546577453614,
+                "z": -2.084550619125366
+            },
+            "cameraRotation": {
+                "x": -0.11539028584957123,
+                "y": 0.6453757286071777,
+                "z": -0.07781652361154556,
+                "w": -0.7510790824890137
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890824,
+            "playerPosition": {
+                "x": -2.5978732109069826,
+                "y": 1.8223445415496827,
+                "z": -2.085219383239746
+            },
+            "cameraRotation": {
+                "x": -0.11250683665275574,
+                "y": 0.6475920081138611,
+                "z": -0.08074957877397537,
+                "w": -0.7492972612380981
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890824,
+            "playerPosition": {
+                "x": -2.5985913276672365,
+                "y": 1.8220555782318116,
+                "z": -2.087109327316284
+            },
+            "cameraRotation": {
+                "x": -0.11271537095308304,
+                "y": 0.6494870185852051,
+                "z": -0.08329761028289795,
+                "w": -0.7473441958427429
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890825,
+            "playerPosition": {
+                "x": -2.6045658588409426,
+                "y": 1.820665955543518,
+                "z": -2.0876002311706545
+            },
+            "cameraRotation": {
+                "x": -0.11663132160902024,
+                "y": 0.6513148546218872,
+                "z": -0.08728539943695069,
+                "w": -0.7446928024291992
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890825,
+            "playerPosition": {
+                "x": -2.6148622035980226,
+                "y": 1.820704460144043,
+                "z": -2.080177068710327
+            },
+            "cameraRotation": {
+                "x": -0.11692611873149872,
+                "y": 0.6498859524726868,
+                "z": -0.08173034340143204,
+                "w": -0.7465231418609619
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890826,
+            "playerPosition": {
+                "x": -2.628398895263672,
+                "y": 1.8166049718856812,
+                "z": -2.0750224590301515
+            },
+            "cameraRotation": {
+                "x": -0.13074082136154176,
+                "y": 0.661582887172699,
+                "z": -0.09186214953660965,
+                "w": -0.7326501607894898
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890826,
+            "playerPosition": {
+                "x": -2.627417802810669,
+                "y": 1.8175222873687745,
+                "z": -2.0706021785736086
+            },
+            "cameraRotation": {
+                "x": -0.13031712174415589,
+                "y": 0.6651574969291687,
+                "z": -0.08949998021125794,
+                "w": -0.7297757863998413
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890827,
+            "playerPosition": {
+                "x": -2.617439031600952,
+                "y": 1.8184568881988526,
+                "z": -2.0786049365997316
+            },
+            "cameraRotation": {
+                "x": -0.12003742158412934,
+                "y": 0.6622397899627686,
+                "z": -0.09061411023139954,
+                "w": -0.7340425848960877
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890827,
+            "playerPosition": {
+                "x": -2.6010947227478029,
+                "y": 1.8190832138061524,
+                "z": -2.084648847579956
+            },
+            "cameraRotation": {
+                "x": -0.11894605308771134,
+                "y": 0.6507167220115662,
+                "z": -0.09565415978431702,
+                "w": -0.7438211441040039
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890828,
+            "playerPosition": {
+                "x": -2.597990036010742,
+                "y": 1.8200535774230958,
+                "z": -2.0864036083221437
+            },
+            "cameraRotation": {
+                "x": -0.11824934184551239,
+                "y": 0.6374203562736511,
+                "z": -0.09223111718893051,
+                "w": -0.7557815909385681
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890828,
+            "playerPosition": {
+                "x": -2.5891666412353517,
+                "y": 1.8200936317443848,
+                "z": -2.0933640003204347
+            },
+            "cameraRotation": {
+                "x": -0.11492779105901718,
+                "y": 0.6455886363983154,
+                "z": -0.097089983522892,
+                "w": -0.7487192153930664
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890829,
+            "playerPosition": {
+                "x": -2.5848262310028078,
+                "y": 1.820497989654541,
+                "z": -2.0941455364227297
+            },
+            "cameraRotation": {
+                "x": -0.11620281636714935,
+                "y": 0.6496283411979675,
+                "z": -0.0957479327917099,
+                "w": -0.7451927661895752
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890829,
+            "playerPosition": {
+                "x": -2.5870184898376467,
+                "y": 1.8207545280456544,
+                "z": -2.0911622047424318
+            },
+            "cameraRotation": {
+                "x": -0.11478115618228913,
+                "y": 0.6482498645782471,
+                "z": -0.09229634702205658,
+                "w": -0.747046709060669
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890830,
+            "playerPosition": {
+                "x": -2.586824893951416,
+                "y": 1.8208942413330079,
+                "z": -2.0933566093444826
+            },
+            "cameraRotation": {
+                "x": -0.11186334490776062,
+                "y": 0.6483741998672485,
+                "z": -0.09426349401473999,
+                "w": -0.7471357583999634
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890830,
+            "playerPosition": {
+                "x": -2.587059736251831,
+                "y": 1.8196921348571778,
+                "z": -2.0918264389038088
+            },
+            "cameraRotation": {
+                "x": -0.11642474681138993,
+                "y": 0.6476094126701355,
+                "z": -0.09571562707424164,
+                "w": -0.7469176054000855
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890831,
+            "playerPosition": {
+                "x": -2.5833685398101808,
+                "y": 1.8200955390930176,
+                "z": -2.092235565185547
+            },
+            "cameraRotation": {
+                "x": -0.11686018854379654,
+                "y": 0.6484438180923462,
+                "z": -0.09260108321905136,
+                "w": -0.7465181946754456
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890831,
+            "playerPosition": {
+                "x": -2.5827088356018068,
+                "y": 1.8198240995407105,
+                "z": -2.0933947563171388
+            },
+            "cameraRotation": {
+                "x": -0.11725036054849625,
+                "y": 0.6488540768623352,
+                "z": -0.0937860980629921,
+                "w": -0.7459524273872376
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890832,
+            "playerPosition": {
+                "x": -2.5879437923431398,
+                "y": 1.81978178024292,
+                "z": -2.0889968872070314
+            },
+            "cameraRotation": {
+                "x": -0.11869111657142639,
+                "y": 0.6471478343009949,
+                "z": -0.09279703348875046,
+                "w": -0.7473291158676148
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890832,
+            "playerPosition": {
+                "x": -2.590219259262085,
+                "y": 1.8196191787719727,
+                "z": -2.090312957763672
+            },
+            "cameraRotation": {
+                "x": -0.11683175712823868,
+                "y": 0.6463941931724548,
+                "z": -0.09544767439365387,
+                "w": -0.7479402422904968
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890833,
+            "playerPosition": {
+                "x": -2.591876268386841,
+                "y": 1.8194960355758668,
+                "z": -2.0939643383026125
+            },
+            "cameraRotation": {
+                "x": -0.11405151337385178,
+                "y": 0.6461015343666077,
+                "z": -0.10006061941385269,
+                "w": -0.7480193376541138
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890833,
+            "playerPosition": {
+                "x": -2.5932185649871828,
+                "y": 1.81923508644104,
+                "z": -2.0923118591308595
+            },
+            "cameraRotation": {
+                "x": -0.11539631336927414,
+                "y": 0.6448281407356262,
+                "z": -0.0996672660112381,
+                "w": -0.7489637732505798
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        },
+        {
+            "timestamp": 1716890834,
+            "playerPosition": {
+                "x": -2.594099521636963,
+                "y": 1.8191554546356202,
+                "z": -2.087909698486328
+            },
+            "cameraRotation": {
+                "x": -0.11834093183279038,
+                "y": 0.6457285284996033,
+                "z": -0.09736791253089905,
+                "w": -0.7480304837226868
+            },
+            "LookAtItemID": 0,
+            "LookAtItemName": "",
+            "LookAtItemHegiht": 0.0,
+            "SelectionState": 0.0
+        }
+    ]
+}

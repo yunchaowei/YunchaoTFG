@@ -43,7 +43,8 @@ public class HeadBodyRig : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = headConstraint.position + offset;
+        //transform.position = headConstraint.position + offset;
+        transform.position = new Vector3(headConstraint.position.x + offset.x, 0, headConstraint.position.z + offset.z);
         Vector3 projectionVector = headConstraint.up;
         switch (forwardAxis)
         {

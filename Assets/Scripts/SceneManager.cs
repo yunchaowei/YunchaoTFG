@@ -29,7 +29,7 @@ public class SceneManager : MonoBehaviour
     const float MinUserHeight = 0f;
     const float MaxUserHeight = 2f;
     [Range(MinUserHeight, MaxUserHeight)]public float UserHeight;
-    [Range(1.00f, 5.00f)] public float MaxDistanceCasting;
+    [Range(0.01f, 5.00f)] public float MaxDistanceCasting;
     public GameObject Furnitures;
     private float FurnituresOriginalHeight = 0;
     private float OVRCameraRigOriginalHeight = 0;
@@ -59,8 +59,10 @@ public class SceneManager : MonoBehaviour
     public GameObject VRCharacterIK5;
     public GameObject HeadOffset;
     public GameObject CenterEyeAnchor;
-    float userBaseHeight = 1.8f;
-    const float defaultCharacterHeight = 1.8f;
+    public GameObject CenterEyeAnchor_Follwer;
+
+    float userBaseHeight = 1.7f;
+    const float defaultCharacterHeight = 1.7f;
     private const string CounterKey = "runCounter";
     //public GameObject cameraY;
     // Start is called before the first frame update
@@ -73,9 +75,6 @@ public class SceneManager : MonoBehaviour
             //                                            UserHeight - 0.1f,
             //                                            OVRCameraRig.transform.position.z);
         }
-        userBaseHeight = CenterEyeAnchor.transform.position.y + 0.1f;
-        if(userBaseHeight == 0.1f)
-            userBaseHeight = 1.8f;
         _changeVRBodyHeight(userBaseHeight - defaultCharacterHeight);
         FurnituresOriginalHeight = Furnitures.transform.position.y;
         OVRCameraRigOriginalHeight = OVRCameraRig.transform.position.y;
@@ -194,6 +193,7 @@ public class SceneManager : MonoBehaviour
 
         if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
+            userBaseHeight = CenterEyeAnchor.transform.position.y;
             Debug.Log("B button was pressed on Right Touch Controller.");
             OpsUserConfigMenu(false);
         }
@@ -410,8 +410,8 @@ public class SceneManager : MonoBehaviour
                 timestamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds(),
                 //playerPosition = Camera.main.transform.position,
                 //cameraRotation = Camera.main.transform.rotation,
-                playerPosition = cameraParent.transform.position,
-                cameraRotation = cameraParent.transform.rotation,
+                playerPosition = CenterEyeAnchor.transform.position,
+                cameraRotation = CenterEyeAnchor.transform.rotation,
                 LookAtItemID = lookAtItemID,
                 LookAtItemName = lookAtItemName,
                 LookAtItemHegiht = lookAtItemHegiht,
@@ -436,7 +436,11 @@ public class SceneManager : MonoBehaviour
                                                         OVRCameraRig.transform.position.z);
         }
 
+        // elbowR.transform.localScale = new Vector3(Vector3.Distance(elbowR.transform.position, pivotR.transform.position), elbowR.transform.localScale.y, elbowR.transform.localScale.z);
         //VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, VRCharacterIK.transform.position.y-finalHeight, VRCharacterIK.transform.position.z);
+        CenterEyeAnchor_Follwer.transform.position = new Vector3(CenterEyeAnchor.transform.position.x, userBaseHeight,CenterEyeAnchor.transform.position.z + 0.1f);
+        CenterEyeAnchor_Follwer.transform.rotation = CenterEyeAnchor.transform.rotation;
+        VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, 0, VRCharacterIK.transform.position.z);
     }
 
     public void Clear_ItemState()
