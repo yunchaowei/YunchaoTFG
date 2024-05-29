@@ -57,7 +57,6 @@ public class SceneManager : MonoBehaviour
     public GameObject VRCharacterIK3;
     public GameObject VRCharacterIK4;
     public GameObject VRCharacterIK5;
-    public GameObject HeadOffset;
     public GameObject CenterEyeAnchor;
     public GameObject CenterEyeAnchor_Follwer;
 
@@ -79,8 +78,9 @@ public class SceneManager : MonoBehaviour
         FurnituresOriginalHeight = Furnitures.transform.position.y;
         OVRCameraRigOriginalHeight = OVRCameraRig.transform.position.y;
         //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
+        
         switch (HeightOption)
-       {
+        {
             case HeightOptions.None:
                 _heightOptions = 0;
                 break;
@@ -127,21 +127,27 @@ public class SceneManager : MonoBehaviour
         UnityEngine.UI.Toggle selectedToggle = toggleGroup.ActiveToggles().FirstOrDefault();
         if(selectedToggle != null)
         {
+            float addi_Value = 0f;
             switch (selectedToggle.name)
             {
                 case "Toggle_None":
+                    addi_Value = additionalValue(HeightOption, HeightOptions.None);
                     HeightOption = HeightOptions.None;
                     break;
                 case "Toggle_Low":
+                    addi_Value = additionalValue(HeightOption, HeightOptions.Low);
                     HeightOption = HeightOptions.Low;
                     break;
                 case "Toggle_Medium":
+                    addi_Value = additionalValue(HeightOption, HeightOptions.Medium);
                     HeightOption = HeightOptions.Medium;
                     break;
                 case "Toggle_High":
+                    addi_Value = additionalValue(HeightOption, HeightOptions.High);
                     HeightOption = HeightOptions.High;
                     break;
                 case "Toggle_VeryHigh":
+                    addi_Value = additionalValue(HeightOption, HeightOptions.VeryHigh);
                     HeightOption = HeightOptions.VeryHigh;
                     break;
             }
@@ -149,6 +155,117 @@ public class SceneManager : MonoBehaviour
         }
 
         CanvasUserConfig.SetActive(false);
+    }
+
+    private float additionalValue(HeightOptions previous, HeightOptions now)
+    {
+        float res = 0;
+
+        switch (previous)
+        {
+            case HeightOptions.None:
+                switch (now)
+                {
+                    case HeightOptions.None:
+                        res += 0;
+                        break;
+                    case HeightOptions.Low:
+                        res += 0.15f * 1;
+                        break;
+                    case HeightOptions.Medium:
+                        res += 0.15f * 2;
+                        break;
+                    case HeightOptions.High:
+                        res += 0.15f * 3;
+                        break;
+                    case HeightOptions.VeryHigh:
+                        res += 0.15f * 4;
+                        break;
+                }
+                break;
+            case HeightOptions.Low:
+                switch (now)
+                {
+                    case HeightOptions.None:
+                        res -= 0.15f;
+                        break;
+                    case HeightOptions.Low:
+                        res += 0;
+                        break;
+                    case HeightOptions.Medium:
+                        res += 0.15f * 1;
+                        break;
+                    case HeightOptions.High:
+                        res += 0.15f * 2;
+                        break;
+                    case HeightOptions.VeryHigh:
+                        res += 0.15f * 3;
+                        break;
+                }
+                break;
+            case HeightOptions.Medium:
+                switch (now)
+                {
+                    case HeightOptions.None:
+                        res -= 0.15f*2;
+                        break;
+                    case HeightOptions.Low:
+                        res -= 0.15f * 1;
+                        break;
+                    case HeightOptions.Medium:
+                        res += 0;
+                        break;
+                    case HeightOptions.High:
+                        res += 0.15f * 1;
+                        break;
+                    case HeightOptions.VeryHigh:
+                        res += 0.15f * 2;
+                        break;
+                }
+                break;
+            case HeightOptions.High:
+                switch (now)
+                {
+                    case HeightOptions.None:
+                        res -= 0.15f * 3;
+                        break;
+                    case HeightOptions.Low:
+                        res -= 0.15f * 2;
+                        break;
+                    case HeightOptions.Medium:
+                        res -= 0.15f * 1;
+                        break;
+                    case HeightOptions.High:
+                        res += 0;
+                        break;
+                    case HeightOptions.VeryHigh:
+                        res += 0.15f * 1;
+                        break;
+                }
+                break;
+            case HeightOptions.VeryHigh:
+                switch (now)
+                {
+                    case HeightOptions.None:
+                        res -= 0.15f * 4;
+                        break;
+                    case HeightOptions.Low:
+                        res -= 0.15f * 3;
+                        break;
+                    case HeightOptions.Medium:
+                        res -= 0.15f * 2;
+                        break;
+                    case HeightOptions.High:
+                        res -= 0.15f * 1;
+                        break;
+                    case HeightOptions.VeryHigh:
+                        res += 0;
+                        break;
+                }
+                break;
+        }
+
+        return res;
     }
 
     private void UpdateTextUsertHeight(float arg0)
@@ -172,6 +289,7 @@ public class SceneManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             _heightOptions++;
+            _setHeightEum(_heightOptions);
             if (_heightOptions > 4)
                 _heightOptions = 4;
             else
@@ -179,7 +297,7 @@ public class SceneManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            _heightOptions--;
+            _heightOptions--; _setHeightEum(_heightOptions);
             if (_heightOptions < 0)
                 _heightOptions = 0;
             else
@@ -217,6 +335,29 @@ public class SceneManager : MonoBehaviour
                 _heightOptions = 0;
             else
                 _changeHeights(false);
+        }
+        
+    }
+
+    private void _setHeightEum(int heightOptions)
+    {
+        switch (heightOptions)
+        {
+            case 0:
+                HeightOption = HeightOptions.None;
+                break;
+            case 1:
+                HeightOption = HeightOptions.Low;
+                break;
+            case 2:
+                HeightOption = HeightOptions.Medium;
+                break;
+            case 3:
+                HeightOption = HeightOptions.High;
+                break;
+            case 4:
+                HeightOption = HeightOptions.VeryHigh;
+                break;
         }
         
     }
@@ -263,8 +404,7 @@ public class SceneManager : MonoBehaviour
                 finalHeight = OVRCameraRigOriginalHeight + additionalHeight;
             }
             _changeVRBodyHeight(finalHeight);
-            if (HeadOffset != null)
-                HeadOffset.transform.position = new Vector3(HeadOffset.transform.position.x, HeadOffset.transform.position.y - additionalHeight, HeadOffset.transform.position.z);
+
             //VRCharacterIK.transform.localScale = new Vector3(VRCharacterIK.transform.localScale.x, VRCharacterIK.transform.localScale.y + additionalHeight, VRCharacterIK.transform.localScale.z);
         }
     }
@@ -281,7 +421,7 @@ public class SceneManager : MonoBehaviour
 
             float targetHeight = userBaseHeight + extraHeight;
 
-            float scaleFactor = targetHeight / userBaseHeight;//1.083, 1.25, 1.5, 1.83
+            float scaleFactor = targetHeight / userBaseHeight;//1.088, 1.1764, 1.2647, 1.3529
 
             //VRCharacterIK.transform.localScale = new Vector3(VRCharacterIK.transform.localScale.x, scaleFactor, VRCharacterIK.transform.localScale.z);
             //VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, VRCharacterIK.transform.position.y+ extraHeight, VRCharacterIK.transform.position.z);
@@ -342,26 +482,26 @@ public class SceneManager : MonoBehaviour
                 if(sum)
                     height = 0.15f;
                 else
-                    height = -0.3f;
+                    height = -0.15f;
                 break;
             case 2:
                 HeightOption = HeightOptions.Medium;
                 if (sum)
-                    height = 0.3f;
+                    height = 0.15f;
                 else
-                    height = -0.45f;
+                    height = -0.15f;
                 break;
             case 3:
                 HeightOption = HeightOptions.High;
                 if (sum)
-                    height = 0.45f;
+                    height = 0.15f;
                 else
-                    height = -0.6f;
+                    height = -0.15f;
                 break;
             case 4:
                 HeightOption = HeightOptions.VeryHigh;
                 if (sum)
-                    height = 0.6f;
+                    height = 0.15f;
 
                 break;
         }
@@ -383,8 +523,7 @@ public class SceneManager : MonoBehaviour
                 finalHeight = OVRCameraRig.transform.position.y + height;
             }
             _changeVRBodyHeight(finalHeight);
-            if (HeadOffset != null)
-                HeadOffset.transform.position = new Vector3(HeadOffset.transform.position.x, HeadOffset.transform.position.y - height, HeadOffset.transform.position.z);
+
             //VRCharacterIK.transform.localScale = new Vector3(VRCharacterIK.transform.localScale.x, VRCharacterIK.transform.localScale.y + height, VRCharacterIK.transform.localScale.z);
 
         }
