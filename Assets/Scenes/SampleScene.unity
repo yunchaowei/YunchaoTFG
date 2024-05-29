@@ -404,7 +404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &8684902
 MonoBehaviour:
@@ -460,13 +460,17 @@ MonoBehaviour:
   btnUserConfigSave: {fileID: 1169780379}
   InputFieldUserID: {fileID: 1350519431}
   toggleGroup: {fileID: 767845482}
+  ToggleSelecNone: {fileID: 1171749060}
+  ToggleSelecLow: {fileID: 1700064824}
+  ToggleSelecMedium: {fileID: 83824150}
+  ToggleSelecHigh: {fileID: 1454738224}
+  ToggleSelecVeryHigh: {fileID: 124777278}
   CanvasUserConfig: {fileID: 36982002}
   VRCharacterIK: {fileID: 188198194}
   VRCharacterIK2: {fileID: 541051839}
   VRCharacterIK3: {fileID: 97132722}
   VRCharacterIK4: {fileID: 925306903}
   VRCharacterIK5: {fileID: 187326073}
-  HeadOffset: {fileID: 0}
   CenterEyeAnchor: {fileID: 1072771864}
   CenterEyeAnchor_Follwer: {fileID: 3715967}
 --- !u!4 &8684903

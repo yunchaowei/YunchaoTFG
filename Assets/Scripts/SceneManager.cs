@@ -51,6 +51,11 @@ public class SceneManager : MonoBehaviour
     public UnityEngine.UI.Button btnUserConfigSave;
     public TMP_InputField InputFieldUserID;
     public ToggleGroup toggleGroup;
+    public UnityEngine.UI.Toggle ToggleSelecNone;
+    public UnityEngine.UI.Toggle ToggleSelecLow;
+    public UnityEngine.UI.Toggle ToggleSelecMedium;
+    public UnityEngine.UI.Toggle ToggleSelecHigh;
+    public UnityEngine.UI.Toggle ToggleSelecVeryHigh;
     public GameObject CanvasUserConfig;
     public GameObject VRCharacterIK;
     public GameObject VRCharacterIK2;
@@ -297,7 +302,8 @@ public class SceneManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            _heightOptions--; _setHeightEum(_heightOptions);
+            _heightOptions--; 
+            _setHeightEum(_heightOptions);
             if (_heightOptions < 0)
                 _heightOptions = 0;
             else
@@ -428,6 +434,8 @@ public class SceneManager : MonoBehaviour
             switch (HeightOption)
             {
                 case HeightOptions.None:
+                    toggleGroup.SetAllTogglesOff();
+                    ToggleSelecNone.isOn = true;
                     VRCharacterIK.SetActive(true);
                     VRCharacterIK2.SetActive(false);
                     VRCharacterIK3.SetActive(false);
@@ -435,6 +443,8 @@ public class SceneManager : MonoBehaviour
                     VRCharacterIK5.SetActive(false);
                     break;
                 case HeightOptions.Low:
+                    toggleGroup.SetAllTogglesOff();
+                    ToggleSelecLow.isOn = true;
                     VRCharacterIK.SetActive(false);
                     VRCharacterIK2.SetActive(true);
                     VRCharacterIK3.SetActive(false);
@@ -442,6 +452,8 @@ public class SceneManager : MonoBehaviour
                     VRCharacterIK5.SetActive(false);
                     break;
                 case HeightOptions.Medium:
+                    toggleGroup.SetAllTogglesOff();
+                    ToggleSelecMedium.isOn = true;
                     VRCharacterIK.SetActive(false);
                     VRCharacterIK2.SetActive(false);
                     VRCharacterIK3.SetActive(true);
@@ -449,6 +461,8 @@ public class SceneManager : MonoBehaviour
                     VRCharacterIK5.SetActive(false);
                     break;
                 case HeightOptions.High:
+                    toggleGroup.SetAllTogglesOff();
+                    ToggleSelecHigh.isOn = true;
                     VRCharacterIK.SetActive(false);
                     VRCharacterIK2.SetActive(false);
                     VRCharacterIK3.SetActive(false);
@@ -456,6 +470,8 @@ public class SceneManager : MonoBehaviour
                     VRCharacterIK5.SetActive(false);
                     break;
                 case HeightOptions.VeryHigh:
+                    toggleGroup.SetAllTogglesOff();
+                    ToggleSelecVeryHigh.isOn = true;
                     VRCharacterIK.SetActive(false);
                     VRCharacterIK2.SetActive(false);
                     VRCharacterIK3.SetActive(false);
