@@ -113,6 +113,11 @@ public class LoadingBarManager : MonoBehaviour
         LoadingBar.value = 0;
         LoadingBar.gameObject.SetActive(false);
         _complet = false;
+
+        if (fadeCoroutine != null)
+        {
+            fadeCoroutine = null;
+        }
         outline.OutlineWidth = 0f;
     }
 
