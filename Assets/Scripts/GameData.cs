@@ -20,5 +20,6 @@ public class GameDataList
 {
     public string userName;
     public float userHeight;
+    public SceneManager.HeightOptions HeightOptions = SceneManager.HeightOptions.None;
     public List<GameData> data = new List<GameData>();
 }

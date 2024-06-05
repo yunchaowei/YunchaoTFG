@@ -64,7 +64,9 @@ public class SceneManager : MonoBehaviour
     public GameObject VRCharacterIK5;
     public GameObject CenterEyeAnchor;
     public GameObject CenterEyeAnchor_Follwer;
-
+    public GameObject OVRLeftHandPrefab;
+    public GameObject OVRRightHandPrefab;
+    public bool IsShowVRBody = true;
     float userBaseHeight = 1.7f;
     const float defaultCharacterHeight = 1.7f;
     private const string CounterKey = "runCounter";
@@ -83,7 +85,13 @@ public class SceneManager : MonoBehaviour
         FurnituresOriginalHeight = Furnitures.transform.position.y;
         OVRCameraRigOriginalHeight = OVRCameraRig.transform.position.y;
         //Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, UserHeight, Camera.main.transform.position.z);
-        
+
+        if (!IsShowVRBody)
+        {
+            OVRLeftHandPrefab.SetActive(false); OVRRightHandPrefab.SetActive(false);
+            VRCharacterIK.SetActive(false); VRCharacterIK2.SetActive(false); VRCharacterIK3.SetActive(false); VRCharacterIK4.SetActive(false); VRCharacterIK5.SetActive(false);
+        }
+
         switch (HeightOption)
         {
             case HeightOptions.None:
@@ -318,6 +326,7 @@ public class SceneManager : MonoBehaviour
         if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
         {
             userBaseHeight = CenterEyeAnchor.transform.position.y;
+            //UserHeight = CenterEyeAnchor.transform.position.y;
             Debug.Log("B button was pressed on Right Touch Controller.");
             OpsUserConfigMenu(false);
         }
@@ -442,11 +451,15 @@ public class SceneManager : MonoBehaviour
                     ToggleSelecVeryHigh.isOn = false;
                     ToggleSelecNone.isOn = true;
 
-                    VRCharacterIK.SetActive(true);
-                    VRCharacterIK2.SetActive(false);
-                    VRCharacterIK3.SetActive(false);
-                    VRCharacterIK4.SetActive(false);
-                    VRCharacterIK5.SetActive(false);
+                    if (IsShowVRBody)
+                    {
+                        VRCharacterIK.SetActive(true);
+                        VRCharacterIK2.SetActive(false);
+                        VRCharacterIK3.SetActive(false);
+                        VRCharacterIK4.SetActive(false);
+                        VRCharacterIK5.SetActive(false);
+                    }
+                    
                     break;
                 case HeightOptions.Low:
                     _heightOptions = 1;
@@ -456,11 +469,15 @@ public class SceneManager : MonoBehaviour
                     ToggleSelecVeryHigh.isOn = false;
                     ToggleSelecLow.isOn = true;
 
-                    VRCharacterIK.SetActive(false);
-                    VRCharacterIK2.SetActive(true);
-                    VRCharacterIK3.SetActive(false);
-                    VRCharacterIK4.SetActive(false);
-                    VRCharacterIK5.SetActive(false);
+                    if (IsShowVRBody)
+                    {
+                        VRCharacterIK.SetActive(false);
+                        VRCharacterIK2.SetActive(true);
+                        VRCharacterIK3.SetActive(false);
+                        VRCharacterIK4.SetActive(false);
+                        VRCharacterIK5.SetActive(false);
+                    }
+                    
                     break;
                 case HeightOptions.Medium:
                     _heightOptions = 2;
@@ -470,11 +487,15 @@ public class SceneManager : MonoBehaviour
                     ToggleSelecVeryHigh.isOn = false;
                     ToggleSelecMedium.isOn = true;
 
-                    VRCharacterIK.SetActive(false);
-                    VRCharacterIK2.SetActive(false);
-                    VRCharacterIK3.SetActive(true);
-                    VRCharacterIK4.SetActive(false);
-                    VRCharacterIK5.SetActive(false);
+                    if (IsShowVRBody)
+                    {
+                        VRCharacterIK.SetActive(false);
+                        VRCharacterIK2.SetActive(false);
+                        VRCharacterIK3.SetActive(true);
+                        VRCharacterIK4.SetActive(false);
+                        VRCharacterIK5.SetActive(false);
+                    }
+                    
                     break;
                 case HeightOptions.High:
                     _heightOptions = 3;
@@ -484,11 +505,15 @@ public class SceneManager : MonoBehaviour
                     ToggleSelecVeryHigh.isOn = false; 
                     ToggleSelecHigh.isOn = true;
 
-                    VRCharacterIK.SetActive(false);
-                    VRCharacterIK2.SetActive(false);
-                    VRCharacterIK3.SetActive(false);
-                    VRCharacterIK4.SetActive(true);
-                    VRCharacterIK5.SetActive(false);
+                    if (IsShowVRBody)
+                    {
+                        VRCharacterIK.SetActive(false);
+                        VRCharacterIK2.SetActive(false);
+                        VRCharacterIK3.SetActive(false);
+                        VRCharacterIK4.SetActive(true);
+                        VRCharacterIK5.SetActive(false);
+                    }
+                   
                     break;
                 case HeightOptions.VeryHigh:
                     _heightOptions = 4;
@@ -498,11 +523,14 @@ public class SceneManager : MonoBehaviour
                     ToggleSelecHigh.isOn = false;
                     ToggleSelecVeryHigh.isOn = true;
 
-                    VRCharacterIK.SetActive(false);
-                    VRCharacterIK2.SetActive(false);
-                    VRCharacterIK3.SetActive(false);
-                    VRCharacterIK4.SetActive(false);
-                    VRCharacterIK5.SetActive(true);
+                    if (IsShowVRBody)
+                    {
+                        VRCharacterIK.SetActive(false);
+                        VRCharacterIK2.SetActive(false);
+                        VRCharacterIK3.SetActive(false);
+                        VRCharacterIK4.SetActive(false);
+                        VRCharacterIK5.SetActive(true);
+                    }
                     break;
             }
         }
@@ -621,7 +649,16 @@ public class SceneManager : MonoBehaviour
         //VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, VRCharacterIK.transform.position.y-finalHeight, VRCharacterIK.transform.position.z);
         CenterEyeAnchor_Follwer.transform.position = new Vector3(CenterEyeAnchor.transform.position.x, userBaseHeight,CenterEyeAnchor.transform.position.z + 0.1f);
         CenterEyeAnchor_Follwer.transform.rotation = CenterEyeAnchor.transform.rotation;
-        VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, 0, VRCharacterIK.transform.position.z);
+        if(VRCharacterIK.activeInHierarchy)
+            VRCharacterIK.transform.position = new Vector3(VRCharacterIK.transform.position.x, 0, VRCharacterIK.transform.position.z);
+        if (VRCharacterIK2.activeInHierarchy)
+            VRCharacterIK2.transform.position = new Vector3(VRCharacterIK2.transform.position.x, 0, VRCharacterIK2.transform.position.z);
+        if (VRCharacterIK3.activeInHierarchy)
+            VRCharacterIK3.transform.position = new Vector3(VRCharacterIK3.transform.position.x, 0, VRCharacterIK3.transform.position.z);
+        if (VRCharacterIK4.activeInHierarchy)
+            VRCharacterIK4.transform.position = new Vector3(VRCharacterIK4.transform.position.x, 0, VRCharacterIK4.transform.position.z);
+        if (VRCharacterIK5.activeInHierarchy)
+            VRCharacterIK5.transform.position = new Vector3(VRCharacterIK5.transform.position.x, 0, VRCharacterIK5.transform.position.z);
     }
 
     public void Clear_ItemState()
@@ -644,9 +681,10 @@ public class SceneManager : MonoBehaviour
         GameDataList dataList = new GameDataList();
         dataList.data = gameDataList;
         dataList.userName = UserName;
-        dataList.userHeight = UserHeight;
+        dataList.userHeight = CenterEyeAnchor.transform.position.y;
+        dataList.HeightOptions = HeightOption;
         string json = JsonUtility.ToJson(dataList, true);
-        File.WriteAllText(UnityEngine.Application.dataPath + $"/DataFolder/{UserName}.json", json);
-        Debug.Log("Data saved in path: " + UnityEngine.Application.dataPath + $"/DataFolder/{UserName}.json");
+        File.WriteAllText(UnityEngine.Application.dataPath + $"/{UserName}.json", json);
+        Debug.Log("Data saved in path: " + UnityEngine.Application.dataPath + $"/{UserName}.json");
     }
 }

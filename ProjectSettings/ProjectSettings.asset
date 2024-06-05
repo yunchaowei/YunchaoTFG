@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: YunchaoTFG
-  productName: cave
+  productName: CaveWithoutVRBody
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -139,8 +139,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 8cebfe53b5043d0438007307b4e48a68, type: 2}
-  - {fileID: 129499538972757935, guid: d6c5e89ba4ea78e47b05aad4c396eb59, type: 2}
-  - {fileID: 11400000, guid: d0d392deb63b4204482142e471d788a0, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +159,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.YunchaoTFG.cave
+    Android: com.YunchaoTFG.CaveWithoutVRBody
     Standalone: com.DefaultCompany.cave
   buildNumber:
     Standalone: 0
@@ -178,7 +176,7 @@ PlayerSettings:
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
   ForceInternetPermission: 0
-  ForceSDCardPermission: 0
+  ForceSDCardPermission: 1
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
