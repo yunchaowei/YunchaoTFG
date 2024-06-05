@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
@@ -49,6 +50,7 @@ public class SceneManager : MonoBehaviour
     public Scrollbar scrollbarUserHeight;  
     public TextMeshProUGUI texUsertHeight;
     public UnityEngine.UI.Button btnUserConfigSave;
+    public UnityEngine.UI.Button btnUserDataSave;
     public TMP_InputField InputFieldUserID;
     public ToggleGroup toggleGroup;
     public UnityEngine.UI.Toggle ToggleSelecNone;
@@ -115,8 +117,16 @@ public class SceneManager : MonoBehaviour
 
         scrollbarUserHeight.onValueChanged.AddListener(UpdateTextUsertHeight);
         btnUserConfigSave.onClick.AddListener(btnUserConfigSaveClicked);
+        btnUserDataSave.onClick.AddListener(btnUserDataSaveClicked);
         UpdateTextUsertHeight(scrollbarUserHeight.value);
         StartCoroutine(CollectDataRoutine());
+
+    }
+
+    private void btnUserDataSaveClicked()
+    {
+        SaveGameData();
+        CanvasUserConfig.SetActive(false);
     }
 
     private void _incrementRunCounter()
@@ -167,6 +177,7 @@ public class SceneManager : MonoBehaviour
             _setHeights();
         }
 
+        //SaveGameData();
         CanvasUserConfig.SetActive(false);
     }
 
@@ -684,7 +695,7 @@ public class SceneManager : MonoBehaviour
         dataList.userHeight = CenterEyeAnchor.transform.position.y;
         dataList.HeightOptions = HeightOption;
         string json = JsonUtility.ToJson(dataList, true);
-        File.WriteAllText(UnityEngine.Application.dataPath + $"/{UserName}.json", json);
-        Debug.Log("Data saved in path: " + UnityEngine.Application.dataPath + $"/{UserName}.json");
+        File.WriteAllText(UnityEngine.Application.persistentDataPath + $"/{UserName}.json", json);
+        Debug.Log("Data saved in path: " + UnityEngine.Application.persistentDataPath + $"/{UserName}.json");
     }
 }
